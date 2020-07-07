@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 
 import Accueil from './composants/Accueil.vue';
 
+import login from './composants/auth/Login.vue';
+
 Vue.use(VueRouter);
 
 const router = new VueRouter({
@@ -12,6 +14,12 @@ const router = new VueRouter({
             path: '/',
             name: 'accueil',
             component: Accueil,
+            meta: { authorize: [] }
+        },
+        {
+            path: '/login',
+            name: 'login',
+            component: Login,
             meta: { authorize: [] }
         },
     ]
