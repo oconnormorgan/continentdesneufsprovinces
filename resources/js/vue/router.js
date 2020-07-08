@@ -2,6 +2,11 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 import Accueil from './composants/Accueil.vue';
+import Bibliotheque from './composants/texte/Bibliotheque.vue';
+import Chapitre from './composants/texte/Chapitre.vue';
+import Histoire from './composants/texte/Histoire.vue';
+import Wiki from './composants/index/Wiki.vue';
+
 import Login from './composants/auth/Login.vue';
 
 import { authenticationService } from '../_services/authentication.service';
@@ -14,9 +19,26 @@ const router = new VueRouter({
             path: '/',
             name: 'accueil',
             component: Accueil,
-            meta: {
-                authorize: []
-            }
+        },
+        {
+            path: '/bibliotheque',
+            name: 'bibliotheque',
+            component: Bibliotheque,
+        },
+        {
+            path: '/chapitre',
+            name: 'chapitre',
+            component: Chapitre,
+        },
+        {
+            path: '/histoire',
+            name: 'histoire',
+            component: Histoire,
+        },
+        {
+            path: '/wiki',
+            name: 'wiki',
+            component: Wiki,
         },
         {
             path: '/login',

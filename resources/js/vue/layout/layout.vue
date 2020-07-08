@@ -3,11 +3,11 @@
     <v-container fluid class="ma-0 pa-0">
       <Navbar />
     </v-container>
-    <v-content>
+    <v-main class="blue-grey lighten-4">
       <v-container fluid class="ma-0 pa-0">
         <router-view></router-view>
       </v-container>
-    </v-content>
+    </v-main>
     <Footer />
   </v-app>
 </template>

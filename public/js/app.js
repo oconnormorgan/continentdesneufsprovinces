@@ -1899,6 +1899,499 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/index/Wiki.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/index/Wiki.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      search: "",
+      headers: [{
+        text: "Mots",
+        align: "start",
+        value: "mots"
+      }, {
+        text: "Définitions",
+        value: "definitions"
+      }, {
+        text: "Date de la dernière modification",
+        value: "date"
+      }],
+      texte: [{
+        mots: "Terme",
+        definitions: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt numquam aliquid laboriosam alias iste fugit explicabo doloremque officia ipsam accusantium enim assumenda earum inventore veritatis, nisi saepe sequi nemo unde.",
+        date: "xx / xx / xxxx"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      search: "",
+      headers: [{
+        text: "Titre",
+        align: "start",
+        value: "titre"
+      }, {
+        text: "Auteur",
+        value: "auteur"
+      }, {
+        text: "Date de parution",
+        value: "date"
+      }, {
+        text: "Commentaires",
+        value: "commentaire"
+      }],
+      texte: [{
+        titre: "Texte 1",
+        auteur: "anonyme",
+        date: "xx / xx / xxxx",
+        commentaire: "13"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Chapitre.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/texte/Chapitre.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      search: "",
+      headers: [{
+        text: "Titre",
+        align: "start",
+        value: "titre"
+      }, {
+        text: "Chapitre",
+        value: "chapitre"
+      }, {
+        text: "Date de parution",
+        value: "date"
+      }, {
+        text: "Commentaires",
+        value: "commentaire"
+      }],
+      texte: [{
+        titre: "Texte 1",
+        chapitre: "XX",
+        date: "xx / xx / xxxx",
+        commentaire: "13"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Histoire.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/texte/Histoire.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      dialog: false,
+      police: 10,
+      items: [{
+        text: "Biblothéque",
+        disabled: false,
+        href: "bibliotheque"
+      }, {
+        text: "Chapitre",
+        disabled: false,
+        href: "chapitre"
+      }, {
+        text: "Texte 1",
+        disabled: true,
+        href: "histoire"
+      }]
+    };
+  },
+  methods: {
+    increase: function increase() {
+      this.police += 2;
+    },
+    decrease: function decrease() {
+      this.police -= 2;
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/layout/layout.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/layout/layout.vue?vue&type=script&lang=js& ***!
@@ -1976,6 +2469,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -1996,17 +2513,18 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _accueil_Carousel_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./accueil/Carousel.vue */ "./resources/js/vue/composants/accueil/Carousel.vue");
-/* harmony import */ var _services_authentication_service_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../_services/authentication.service.js */ "./resources/js/_services/authentication.service.js");
+/* harmony import */ var _accueil_Apropos_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./accueil/Apropos.vue */ "./resources/js/vue/composants/accueil/Apropos.vue");
+/* harmony import */ var _accueil_Histoire_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./accueil/Histoire.vue */ "./resources/js/vue/composants/accueil/Histoire.vue");
+/* harmony import */ var _services_authentication_service_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../_services/authentication.service.js */ "./resources/js/_services/authentication.service.js");
+
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    Carousel: _accueil_Carousel_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
-  },
-  data: function data() {
-    return {
-      colors: ["indigo", "warning", "pink darken-2", "red lighten-1", "deep-purple accent-4"]
-    };
+    Carousel: _accueil_Carousel_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    Apropos: _accueil_Apropos_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    Histoire: _accueil_Histoire_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   },
   computed: {
     username: function username() {
@@ -2022,7 +2540,7 @@ __webpack_require__.r(__webpack_exports__);
   created: function created() {
     var _this = this;
 
-    _services_authentication_service_js__WEBPACK_IMPORTED_MODULE_1__["authenticationService"].currentUser.subscribe(function (x) {
+    _services_authentication_service_js__WEBPACK_IMPORTED_MODULE_3__["authenticationService"].currentUser.subscribe(function (x) {
       return _this.currentUser = x;
     });
   }
@@ -2030,9 +2548,31 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./resources/js/vue/composants/accueil/Apropos.js?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./resources/js/vue/composants/accueil/Apropos.js?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./resources/js/vue/composants/accueil/Carousel.js?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./resources/js/vue/composants/accueil/Carousel.js?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./resources/js/vue/composants/accueil/Histoire.js?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./resources/js/vue/composants/accueil/Histoire.js?vue&type=script&lang=js& ***!
   \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -26491,7 +27031,174 @@ var render = function() {
   return _c(
     "v-container",
     { staticClass: "ma-0 pa-0", attrs: { fluid: "" } },
-    [_c("Carousel")],
+    [_c("Carousel"), _vm._v(" "), _c("Histoire"), _vm._v(" "), _c("Apropos")],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/accueil/Apropos.vue?vue&type=template&id=4a405a38&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/accueil/Apropos.vue?vue&type=template&id=4a405a38& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-container",
+    { attrs: { fluid: "" } },
+    [
+      _c(
+        "v-row",
+        [
+          _c(
+            "v-col",
+            { attrs: { cols: "12", md: "6" } },
+            [
+              _c("v-btn", { attrs: { width: "100%", disabled: "" } }, [
+                _vm._v("Le pourquoi")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "mt-2 pa-2" }, [_vm._v("TEXTE")])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-col",
+            { attrs: { cols: "12", md: "6" } },
+            [
+              _c(
+                "v-row",
+                [
+                  _c(
+                    "v-col",
+                    [
+                      _c(
+                        "v-card",
+                        { staticClass: "mx-auto blue-grey lighten-5" },
+                        [
+                          _c(
+                            "v-card-text",
+                            [
+                              _c(
+                                "v-avatar",
+                                { attrs: { color: "yellow", size: "35" } },
+                                [
+                                  _c(
+                                    "span",
+                                    { staticClass: "white--text headline" },
+                                    [_vm._v("AF")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("h4", [_vm._v("Altern Fodhyn")]),
+                              _vm._v(" "),
+                              _c("div", [_vm._v("Créateur de l'univers")])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-card-actions",
+                            { staticClass: "d-flex justify-end" },
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  attrs: {
+                                    text: "",
+                                    color: "deep-orange accent-2"
+                                  }
+                                },
+                                [_vm._v("En savoir plus")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-col",
+                    [
+                      _c(
+                        "v-card",
+                        { staticClass: "mx-auto blue-grey lighten-5" },
+                        [
+                          _c(
+                            "v-card-text",
+                            [
+                              _c(
+                                "v-avatar",
+                                { attrs: { color: "blue", size: "35" } },
+                                [
+                                  _c(
+                                    "span",
+                                    { staticClass: "white--text headline" },
+                                    [_vm._v("ANC")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("h4", [_vm._v("Angelus N.C.")]),
+                              _vm._v(" "),
+                              _c("div", [_vm._v("Premiers des aventuriers")])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-card-actions",
+                            { staticClass: "d-flex justify-end" },
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  attrs: {
+                                    text: "",
+                                    color: "deep-orange accent-2"
+                                  }
+                                },
+                                [_vm._v("En savoir plus")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
     1
   )
 }
@@ -26536,10 +27243,132 @@ var render = function() {
       _c(
         "v-btn",
         {
-          staticClass: "pa-0 my-2 orange--text text--accent-4",
-          attrs: { width: "75%" }
+          staticClass: "pa-0 mt-n5 mb-3 white deep-orange--text text--accent-2",
+          attrs: { width: "75%", elevation: "3", text: "", to: "/bibliotheque" }
         },
         [_vm._v("Acceder aux écrits")]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/accueil/Histoire.vue?vue&type=template&id=4b8091ba&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/accueil/Histoire.vue?vue&type=template&id=4b8091ba& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-card",
+    { staticClass: "ma-3 blue-grey lighten-5" },
+    [
+      _c(
+        "v-card-text",
+        [
+          _c(
+            "v-row",
+            [
+              _c("v-col", { attrs: { cols: "12", md: "8" } }, [
+                _c("p", { staticClass: "display-1 text--primary" }, [
+                  _vm._v("La Genèse")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "text--primary" }, [
+                  _c("p", [_vm._v("Il y a longtemps le monde fût détruit.")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n            Il y a longtemps, très longtemps, le monde était dominé par les Magus, des êtres disposant d'une énergie quasi infinie, d'une puissance incommensurable. Des êtres humains qui s'entraînaient jusqu'à la limite du corps humain et l'ont même dépassé pour devenir des êtres quasi-divin. Ils ont exploré le monde entier, le soumettant à leurs volontés. Mais un jour tout cela disparut... Comment et Pourquoi? Cela reste un mystère même 90 000 ans plus tard.\n            Les anciennes connaissent furent perdue, oublié.\n          "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n            Le continent, qui avait sombré dans le chaos fût recouvert par le sang, des guerres faisaient rage, des villes furent détruit par la violence et les flammes.\n            Il ne reste que peu de trace écrite ou oral de cette époque, mais il reste une légende, celle du premier Haut-Seigneur, L'Overlord Primordial, Primus OCTAVIA.\n            Nul ne sait d'où il venait, ni qui il était, mais en quelques années le continent entier tomba dans le creux de sa main. Il repensa le système des provinces, mis au point une hiérarchie, décida de loi, etc. Grâce à lui, le Continent des Neufs Province devient un endroit paisible. Pendant une bonne période le Premier Overlord dirigea le continent, mais il disparut un jour sans lancer de trace. La datation est approximative, mais on pense qu'il était Overlord il y a environ 80 000 ans.\n            Les peuples du continent vécurent en paix en se remémorant les souvenirs de l'Overlord, mais rien n'est éternelle.\n          "
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "v-col",
+                { attrs: { cols: "12", md: "4" } },
+                [
+                  _c(
+                    "v-card",
+                    { staticClass: "mx-auto blue-grey lighten-4" },
+                    [
+                      _c(
+                        "v-card-text",
+                        [
+                          _c(
+                            "v-avatar",
+                            { attrs: { color: "teal", size: "62" } },
+                            [
+                              _c(
+                                "span",
+                                { staticClass: "white--text headline" },
+                                [_vm._v("PO")]
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", [_vm._v("Le premier des Grands")]),
+                          _vm._v(" "),
+                          _c("p", { staticClass: "display-1 text--primary" }, [
+                            _vm._v("Primus OCTAVIA")
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text--primary" }, [
+                            _vm._v(
+                              "\n              Premier Haut-Seigneur apparut depuis l'ancienne ère.\n              Apparut de nulle part pendant les guerres incessantes qui, à l'époque, touché l'ensemble du continent.\n              Il établit le système de province et marqua pendant longtemps les esprits par sa puissance.\n            "
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-card-actions",
+                        { staticClass: "d-flex justify-end" },
+                        [
+                          _c(
+                            "v-btn",
+                            {
+                              attrs: { text: "", color: "deep-orange accent-2" }
+                            },
+                            [_vm._v("En savoir plus")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
       )
     ],
     1
@@ -26568,107 +27397,216 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "v-content",
+    "v-container",
+    { staticClass: "fill-height", attrs: { fluid: "" } },
+    [
+      _c(
+        "v-row",
+        { attrs: { align: "center", justify: "center" } },
+        [
+          _c(
+            "v-col",
+            { attrs: { cols: "12", sm: "8", md: "4" } },
+            [
+              _c(
+                "v-card",
+                { staticClass: "elevation-12" },
+                [
+                  _c(
+                    "v-toolbar",
+                    { attrs: { color: "success", dark: "", flat: "" } },
+                    [
+                      _c("v-toolbar-title", [_vm._v("Indentifiez-vous")]),
+                      _vm._v(" "),
+                      _c("v-spacer")
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-card-text",
+                    [
+                      _c(
+                        "v-form",
+                        {
+                          ref: "form",
+                          attrs: { "lazy-validation": _vm.lazy },
+                          model: {
+                            value: _vm.valid,
+                            callback: function($$v) {
+                              _vm.valid = $$v
+                            },
+                            expression: "valid"
+                          }
+                        },
+                        [
+                          _c("v-text-field", {
+                            attrs: {
+                              label: "Email de connexion",
+                              name: "login",
+                              rules: _vm.emailRules,
+                              "prepend-icon": "mdi-account",
+                              type: "text"
+                            },
+                            model: {
+                              value: _vm.user.email,
+                              callback: function($$v) {
+                                _vm.$set(_vm.user, "email", $$v)
+                              },
+                              expression: "user.email"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("v-text-field", {
+                            attrs: {
+                              id: "password",
+                              label: "Mot de passe",
+                              rules: _vm.pwdRules,
+                              name: "password",
+                              "prepend-icon": "mdi-lock",
+                              type: "password"
+                            },
+                            model: {
+                              value: _vm.user.password,
+                              callback: function($$v) {
+                                _vm.$set(_vm.user, "password", $$v)
+                              },
+                              expression: "user.password"
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-card-actions",
+                    [
+                      _c(
+                        "v-btn",
+                        {
+                          attrs: {
+                            outlined: "",
+                            color: "success",
+                            disabled: !_vm.valid
+                          },
+                          on: { click: _vm.connection }
+                        },
+                        [_vm._v("Connexion")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/index/Wiki.vue?vue&type=template&id=6f6d5d86&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/index/Wiki.vue?vue&type=template&id=6f6d5d86& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-container",
+    { attrs: { fluid: "" } },
     [
       _c(
         "v-container",
-        { staticClass: "fill-height", attrs: { fluid: "" } },
+        { attrs: { fluid: "" } },
         [
           _c(
             "v-row",
-            { attrs: { align: "center", justify: "center" } },
             [
               _c(
                 "v-col",
-                { attrs: { cols: "12", sm: "8", md: "4" } },
+                {
+                  staticClass: "d-flex align-center flex-column",
+                  attrs: { cols: "12", md: "8" }
+                },
                 [
                   _c(
-                    "v-card",
-                    { staticClass: "elevation-12" },
+                    "div",
                     [
                       _c(
-                        "v-toolbar",
-                        { attrs: { color: "success", dark: "", flat: "" } },
-                        [
-                          _c("v-toolbar-title", [_vm._v("Indentifiez-vous")]),
-                          _vm._v(" "),
-                          _c("v-spacer")
-                        ],
-                        1
+                        "v-card-title",
+                        {
+                          staticClass: "text-sm-h5 text-md-h3",
+                          attrs: { width: "100%", "max-height": "300px" }
+                        },
+                        [_vm._v("Le Wiki")]
                       ),
+                      _vm._v(" "),
+                      _c("v-card-text", [
+                        _vm._v(
+                          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, itaque, exercitationem placeat eius sit, molestiae neque illo ex commodi earum aut vero provident eos consequuntur doloremque sunt unde! Corporis, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in maxime totam sapiente minima nisi provident nemo perferendis ducimus nam eum repudiandae voluptas hic explicabo consectetur tempora atque, quod soluta."
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-card",
+                    { attrs: { width: "100%" } },
+                    [
+                      _c("v-card-title", [_vm._v("Dernières ajout")]),
                       _vm._v(" "),
                       _c(
                         "v-card-text",
                         [
                           _c(
-                            "v-form",
+                            "v-btn",
                             {
-                              ref: "form",
-                              attrs: { "lazy-validation": _vm.lazy },
-                              model: {
-                                value: _vm.valid,
-                                callback: function($$v) {
-                                  _vm.valid = $$v
-                                },
-                                expression: "valid"
-                              }
+                              staticClass: "ma-0 pa-1",
+                              attrs: { text: "", small: "" }
                             },
-                            [
-                              _c("v-text-field", {
-                                attrs: {
-                                  label: "Email de connexion",
-                                  name: "login",
-                                  rules: _vm.emailRules,
-                                  "prepend-icon": "mdi-account",
-                                  type: "text"
-                                },
-                                model: {
-                                  value: _vm.user.email,
-                                  callback: function($$v) {
-                                    _vm.$set(_vm.user, "email", $$v)
-                                  },
-                                  expression: "user.email"
-                                }
-                              }),
-                              _vm._v(" "),
-                              _c("v-text-field", {
-                                attrs: {
-                                  id: "password",
-                                  label: "Mot de passe",
-                                  rules: _vm.pwdRules,
-                                  name: "password",
-                                  "prepend-icon": "mdi-lock",
-                                  type: "password"
-                                },
-                                model: {
-                                  value: _vm.user.password,
-                                  callback: function($$v) {
-                                    _vm.$set(_vm.user, "password", $$v)
-                                  },
-                                  expression: "user.password"
-                                }
-                              })
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "v-card-actions",
-                        [
+                            [_vm._v("Terme (XX / XX)")]
+                          ),
+                          _vm._v(",\n            "),
                           _c(
                             "v-btn",
                             {
-                              attrs: {
-                                outlined: "",
-                                color: "success",
-                                disabled: !_vm.valid
-                              },
-                              on: { click: _vm.connection }
+                              staticClass: "ma-0 pa-1",
+                              attrs: { text: "", small: "" }
                             },
-                            [_vm._v("Connexion")]
+                            [_vm._v("Terme (XX / XX)")]
+                          ),
+                          _vm._v(",\n            "),
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "ma-0 pa-1",
+                              attrs: { text: "", small: "" }
+                            },
+                            [_vm._v("Terme (XX / XX)")]
                           )
                         ],
                         1
@@ -26678,6 +27616,1135 @@ var render = function() {
                   )
                 ],
                 1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-col",
+                { attrs: { cols: "12", md: "4" } },
+                [
+                  _c(
+                    "v-card",
+                    {
+                      staticClass:
+                        "mx-auto blue-grey lighten-5 d-flex flex-column justify-space-between",
+                      attrs: { height: "100%" }
+                    },
+                    [
+                      _c("v-card-text", [
+                        _c("h4", [_vm._v("Information")]),
+                        _vm._v(" "),
+                        _c("div", [
+                          _vm._v(
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt numquam aliquid laboriosam alias iste fugit explicabo doloremque officia ipsam accusantium enim assumenda earum inventore veritatis, nisi saepe sequi nemo unde."
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "v-card-actions",
+                        { staticClass: "d-flex" },
+                        [
+                          _c("v-text-field", {
+                            staticClass: "mx-3",
+                            attrs: {
+                              text: "",
+                              color: "deep-orange accent-2",
+                              label: "E-mail"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "mx-3",
+                              attrs: {
+                                color: "white deep-orange--text text--accent-2",
+                                elevation: "3"
+                              }
+                            },
+                            [_vm._v("s'abonner")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-card",
+        [
+          _c(
+            "v-card-title",
+            [
+              _vm._v("\n      Bibliothèque\n      "),
+              _c("v-spacer"),
+              _vm._v(" "),
+              _c("v-text-field", {
+                attrs: {
+                  "append-icon": "mdi-magnify",
+                  label: "Recherche",
+                  "single-line": "",
+                  "hide-details": ""
+                },
+                model: {
+                  value: _vm.search,
+                  callback: function($$v) {
+                    _vm.search = $$v
+                  },
+                  expression: "search"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("v-data-table", {
+            attrs: {
+              headers: _vm.headers,
+              items: _vm.texte,
+              search: _vm.search
+            }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=template&id=087b4037&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=template&id=087b4037& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-container",
+    { attrs: { fluid: "" } },
+    [
+      _c(
+        "v-container",
+        { attrs: { fluid: "" } },
+        [
+          _c(
+            "v-row",
+            [
+              _c(
+                "v-col",
+                {
+                  staticClass: "d-flex align-center flex-column",
+                  attrs: { cols: "12", md: "8" }
+                },
+                [
+                  _c(
+                    "div",
+                    [
+                      _c(
+                        "v-card-title",
+                        {
+                          staticClass: "text-sm-h5 text-md-h3",
+                          attrs: { width: "100%", "max-height": "300px" }
+                        },
+                        [_vm._v("La grande bibliothèque")]
+                      ),
+                      _vm._v(" "),
+                      _c("v-card-text", [
+                        _vm._v(
+                          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, itaque, exercitationem placeat eius sit, molestiae neque illo ex commodi earum aut vero provident eos consequuntur doloremque sunt unde! Corporis, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in maxime totam sapiente minima nisi provident nemo perferendis ducimus nam eum repudiandae voluptas hic explicabo consectetur tempora atque, quod soluta."
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-card",
+                    { attrs: { width: "100%" } },
+                    [
+                      _c("v-card-title", [_vm._v("Dernières parution")]),
+                      _vm._v(" "),
+                      _c(
+                        "v-card-text",
+                        [
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "ma-0 pa-1",
+                              attrs: { text: "", small: "" }
+                            },
+                            [_vm._v("Titre (XX / XX)")]
+                          ),
+                          _vm._v(",\n            "),
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "ma-0 pa-1",
+                              attrs: { text: "", small: "" }
+                            },
+                            [_vm._v("Titre (XX / XX)")]
+                          ),
+                          _vm._v(",\n            "),
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "ma-0 pa-1",
+                              attrs: { text: "", small: "" }
+                            },
+                            [_vm._v("Titre (XX / XX)")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-col",
+                { attrs: { cols: "12", md: "4" } },
+                [
+                  _c(
+                    "v-card",
+                    {
+                      staticClass:
+                        "mx-auto blue-grey lighten-5 d-flex flex-column justify-space-between",
+                      attrs: { height: "100%" }
+                    },
+                    [
+                      _c("v-card-text", [
+                        _c("h4", [_vm._v("Information")]),
+                        _vm._v(" "),
+                        _c("div", [
+                          _vm._v(
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt numquam aliquid laboriosam alias iste fugit explicabo doloremque officia ipsam accusantium enim assumenda earum inventore veritatis, nisi saepe sequi nemo unde."
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "v-card-actions",
+                        { staticClass: "d-flex" },
+                        [
+                          _c("v-text-field", {
+                            staticClass: "mx-3",
+                            attrs: {
+                              text: "",
+                              color: "deep-orange accent-2",
+                              label: "E-mail"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "mx-3",
+                              attrs: {
+                                color: "white deep-orange--text text--accent-2",
+                                elevation: "3"
+                              }
+                            },
+                            [_vm._v("s'abonner")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-card",
+        [
+          _c(
+            "v-card-title",
+            [
+              _vm._v("\n      Bibliothèque\n      "),
+              _c("v-spacer"),
+              _vm._v(" "),
+              _c("v-text-field", {
+                attrs: {
+                  "append-icon": "mdi-magnify",
+                  label: "Recherche",
+                  "single-line": "",
+                  "hide-details": ""
+                },
+                model: {
+                  value: _vm.search,
+                  callback: function($$v) {
+                    _vm.search = $$v
+                  },
+                  expression: "search"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("v-data-table", {
+            attrs: {
+              headers: _vm.headers,
+              items: _vm.texte,
+              search: _vm.search
+            }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-btn",
+        {
+          staticClass:
+            "pa-0 my-2 blue-grey darken-2 deep-orange--text text--accent-2",
+          attrs: { width: "75%", text: "", to: "/chapitre" }
+        },
+        [_vm._v("Acceder à une histoire")]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Chapitre.vue?vue&type=template&id=ad8c94fc&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/texte/Chapitre.vue?vue&type=template&id=ad8c94fc& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-container",
+    { attrs: { fluid: "" } },
+    [
+      _c(
+        "v-container",
+        { attrs: { fluid: "" } },
+        [
+          _c(
+            "v-row",
+            [
+              _c(
+                "v-col",
+                {
+                  staticClass: "d-flex align-center flex-column",
+                  attrs: { cols: "12", md: "8" }
+                },
+                [
+                  _c(
+                    "div",
+                    [
+                      _c(
+                        "v-card-title",
+                        {
+                          staticClass: "text-sm-h5 text-md-h3",
+                          attrs: { width: "100%", "max-height": "300px" }
+                        },
+                        [_vm._v("Titre")]
+                      ),
+                      _vm._v(" "),
+                      _c("v-card-text", [
+                        _vm._v(
+                          "Resumer : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, itaque, exercitationem placeat eius sit, molestiae neque illo ex commodi earum aut vero provident eos consequuntur doloremque sunt unde! Corporis, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in maxime totam sapiente minima nisi provident nemo perferendis ducimus nam eum repudiandae voluptas hic explicabo consectetur tempora atque, quod soluta."
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-card",
+                    { attrs: { width: "100%" } },
+                    [
+                      _c("v-card-title", [_vm._v("Genre")]),
+                      _vm._v(" "),
+                      _c(
+                        "v-card-text",
+                        [
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "ma-0 pa-1",
+                              attrs: { text: "", small: "" }
+                            },
+                            [_vm._v("Genre")]
+                          ),
+                          _vm._v(",\n            "),
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "ma-0 pa-1",
+                              attrs: { text: "", small: "" }
+                            },
+                            [_vm._v("Genre")]
+                          ),
+                          _vm._v(",\n            "),
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "ma-0 pa-1",
+                              attrs: { text: "", small: "" }
+                            },
+                            [_vm._v("Genre")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-col",
+                { attrs: { cols: "12", md: "4" } },
+                [
+                  _c(
+                    "v-card",
+                    {
+                      staticClass:
+                        "mx-auto blue-grey lighten-5 d-flex flex-column justify-space-between",
+                      attrs: { height: "100%" }
+                    },
+                    [
+                      _c("v-card-text", [
+                        _c("h4", [_vm._v("Information")]),
+                        _vm._v(" "),
+                        _c("div", [
+                          _vm._v(
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt numquam aliquid laboriosam alias iste fugit explicabo doloremque officia ipsam accusantium enim assumenda earum inventore veritatis, nisi saepe sequi nemo unde."
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "v-card-actions",
+                        { staticClass: "d-flex" },
+                        [
+                          _c("v-text-field", {
+                            staticClass: "mx-3",
+                            attrs: {
+                              text: "",
+                              color: "deep-orange accent-2",
+                              label: "E-mail"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "mx-3",
+                              attrs: {
+                                color: "white deep-orange--text text--accent-2",
+                                elevation: "3"
+                              }
+                            },
+                            [_vm._v("s'abonner")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-card",
+        [
+          _c(
+            "v-card-title",
+            [
+              _vm._v("\n      Chapitre\n      "),
+              _c("v-spacer"),
+              _vm._v(" "),
+              _c("v-text-field", {
+                attrs: {
+                  "append-icon": "mdi-magnify",
+                  label: "Recherche",
+                  "single-line": "",
+                  "hide-details": ""
+                },
+                model: {
+                  value: _vm.search,
+                  callback: function($$v) {
+                    _vm.search = $$v
+                  },
+                  expression: "search"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("v-data-table", {
+            attrs: {
+              headers: _vm.headers,
+              items: _vm.texte,
+              search: _vm.search
+            }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-btn",
+        {
+          staticClass:
+            "pa-0 my-2 blue-grey darken-2 deep-orange--text text--accent-2",
+          attrs: { width: "75%", text: "", to: "/histoire" }
+        },
+        [_vm._v("Acceder à un chapitre")]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Histoire.vue?vue&type=template&id=0c34d4bf&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/vue/composants/texte/Histoire.vue?vue&type=template&id=0c34d4bf& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-container",
+    { attrs: { fluid: "" } },
+    [
+      _c(
+        "v-row",
+        { staticClass: "pa-0 ma-0" },
+        [
+          _c(
+            "v-card",
+            { staticClass: "pa-0 ma-0", attrs: { width: "100%" } },
+            [
+              _c("v-breadcrumbs", {
+                staticClass: "pa-1 mx-5",
+                attrs: { items: _vm.items },
+                scopedSlots: _vm._u([
+                  {
+                    key: "item",
+                    fn: function(ref) {
+                      var item = ref.item
+                      return [
+                        _c(
+                          "v-breadcrumbs-item",
+                          {
+                            attrs: { href: item.href, disabled: item.disabled }
+                          },
+                          [_vm._v(_vm._s(item.text.toUpperCase()))]
+                        )
+                      ]
+                    }
+                  }
+                ])
+              })
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-row",
+        { staticClass: "pa-0 ma-0" },
+        [
+          _c(
+            "v-col",
+            {
+              staticClass: "d-flex justify-center pa-0 ma-0",
+              attrs: { cols: "8" }
+            },
+            [
+              _c("v-card-title", { staticClass: "ma-0 pa-0" }, [
+                _vm._v("Titre")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-col",
+            { attrs: { cols: "4" } },
+            [
+              _c(
+                "v-card",
+                { staticClass: "d-flex flex-column align-center" },
+                [
+                  _c(
+                    "v-card-title",
+                    { staticClass: "text-subtitle-1 ma-0 pa-0" },
+                    [_vm._v("Paramétre")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-row",
+                    { staticClass: "d-flex justify-center ma-0 pa-0" },
+                    [
+                      _c(
+                        "v-col",
+                        {
+                          staticClass: "d-flex justify-center ma-0 pa-0",
+                          attrs: { cols: "6", md: "3", width: "100%" }
+                        },
+                        [
+                          _c(
+                            "v-btn",
+                            {
+                              attrs: { icon: "", small: "" },
+                              on: { click: _vm.decrease }
+                            },
+                            [
+                              _c("v-icon", [
+                                _vm._v("mdi-format-font-size-decrease")
+                              ])
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-col",
+                        {
+                          staticClass: "d-flex justify-center ma-0 pa-0",
+                          attrs: { cols: "6", md: "3", width: "100%" }
+                        },
+                        [
+                          _c(
+                            "v-btn",
+                            {
+                              attrs: { icon: "", small: "" },
+                              on: { click: _vm.increase }
+                            },
+                            [
+                              _c("v-icon", [
+                                _vm._v("mdi-format-font-size-increase")
+                              ])
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-col",
+                        {
+                          staticClass: "d-flex justify-center ma-0 pa-0",
+                          attrs: { cols: "6", md: "3", width: "100%" }
+                        },
+                        [
+                          _c(
+                            "v-btn",
+                            { attrs: { icon: "", small: "" } },
+                            [_c("v-icon", [_vm._v("mdi-brightness-3")])],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-col",
+                        {
+                          staticClass: "d-flex justify-center ma-0 pa-0",
+                          attrs: { cols: "6", md: "3", width: "100%" }
+                        },
+                        [
+                          _c(
+                            "v-btn",
+                            { attrs: { icon: "", small: "" } },
+                            [_c("v-icon", [_vm._v("mdi-microphone")])],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-col",
+                        {
+                          staticClass: "d-flex justify-center ma-0 pa-0",
+                          attrs: { cols: "6", md: "3", width: "100%" }
+                        },
+                        [
+                          _c(
+                            "v-btn",
+                            { attrs: { icon: "", small: "" } },
+                            [_c("v-icon", [_vm._v("mdi-human")])],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-row",
+        [
+          _c(
+            "v-col",
+            { attrs: { cols: "12", md: "8" } },
+            [
+              _c(
+                "v-card",
+                {
+                  staticClass: "pa-0 ma-0 d-flex flex-column",
+                  attrs: { width: "100%" }
+                },
+                [
+                  _c(
+                    "v-card-actions",
+                    {
+                      staticClass: "d-flex justify-end",
+                      attrs: { width: "100%" }
+                    },
+                    [
+                      _c(
+                        "v-dialog",
+                        {
+                          scopedSlots: _vm._u([
+                            {
+                              key: "activator",
+                              fn: function(ref) {
+                                var on = ref.on
+                                var attrs = ref.attrs
+                                return [
+                                  _c(
+                                    "v-btn",
+                                    _vm._g(
+                                      _vm._b(
+                                        { attrs: { icon: "" } },
+                                        "v-btn",
+                                        attrs,
+                                        false
+                                      ),
+                                      on
+                                    ),
+                                    [
+                                      _c(
+                                        "v-icon",
+                                        {
+                                          staticClass: "pa-2",
+                                          attrs: { icon: "" }
+                                        },
+                                        [_vm._v("mdi-fullscreen")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ]
+                              }
+                            }
+                          ]),
+                          model: {
+                            value: _vm.dialog,
+                            callback: function($$v) {
+                              _vm.dialog = $$v
+                            },
+                            expression: "dialog"
+                          }
+                        },
+                        [
+                          _vm._v(" "),
+                          _c(
+                            "v-card",
+                            { staticClass: "ma-0 pa-0" },
+                            [
+                              _c(
+                                "v-toolbar",
+                                {
+                                  staticClass: "ma-0 pa-0",
+                                  attrs: {
+                                    dark: "",
+                                    color: "deep-black",
+                                    width: "100%"
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "v-row",
+                                    {
+                                      staticClass:
+                                        "d-flex justify-space-between align-center px-5",
+                                      attrs: { width: "100%" }
+                                    },
+                                    [
+                                      _c(
+                                        "div",
+                                        { staticClass: "d-flex align-center" },
+                                        [
+                                          _c(
+                                            "v-btn",
+                                            {
+                                              staticClass: "px-2",
+                                              attrs: { icon: "", dark: "" },
+                                              on: {
+                                                click: function($event) {
+                                                  _vm.dialog = false
+                                                }
+                                              }
+                                            },
+                                            [
+                                              _c("v-icon", [
+                                                _vm._v("mdi-close")
+                                              ])
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "v-toolbar-title",
+                                            { staticClass: "px-2" },
+                                            [_vm._v("Chapitre XX")]
+                                          )
+                                        ],
+                                        1
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        [
+                                          _c(
+                                            "v-btn",
+                                            {
+                                              staticClass: "px-2",
+                                              attrs: { icon: "", small: "" },
+                                              on: { click: _vm.decrease }
+                                            },
+                                            [
+                                              _c("v-icon", [
+                                                _vm._v(
+                                                  "mdi-format-font-size-decrease"
+                                                )
+                                              ])
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "v-btn",
+                                            {
+                                              staticClass: "px-2",
+                                              attrs: { icon: "", small: "" },
+                                              on: { click: _vm.increase }
+                                            },
+                                            [
+                                              _c("v-icon", [
+                                                _vm._v(
+                                                  "mdi-format-font-size-increase"
+                                                )
+                                              ])
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "v-btn",
+                                            {
+                                              staticClass: "px-2",
+                                              attrs: { icon: "", small: "" }
+                                            },
+                                            [
+                                              _c("v-icon", [
+                                                _vm._v("mdi-brightness-3")
+                                              ])
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "v-btn",
+                                            {
+                                              staticClass: "px-2",
+                                              attrs: { icon: "", small: "" }
+                                            },
+                                            [
+                                              _c("v-icon", [
+                                                _vm._v("mdi-microphone")
+                                              ])
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "v-btn",
+                                            {
+                                              staticClass: "px-2",
+                                              attrs: { icon: "", small: "" }
+                                            },
+                                            [
+                                              _c("v-icon", [
+                                                _vm._v("mdi-human")
+                                              ])
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "v-card-text",
+                                {
+                                  staticClass: "ma-0 pa-5 blue-grey lighten-5",
+                                  style: "font-size:" + _vm.police + "px;"
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                Je vais bientôt entrer dans l'académie des Montagnes Bleues. Mon avenir est tracé ! Pour garder en mémoire mes aventures je vais coucher sur papier ce que j'ai vécu. Mais d'abord, faisons un bref résumé de qui je suis...\n                Je m'appelle Angelus Noircorbeau, fils de Ygerne Noircorbeau serveuse dans une taverne. D'après ma mère mon père serait mort peu après ma naissance. Je suis né pendant un mois de grande chaleur, et ma mère me disait que ce jour là la neige tomba subitement. Avec cela, j’ai longtemps cru que j’avais un grand destin, mais la réalité était tout autre ! Comme tous les enfants, à 6 ans j'ai passé le test pour vérifier ma puissance martial sur la pierre de divination... Et le résultat était plus qu’affligeant... j'ai fait 4. Plus tard, à 10 ans, j'ai fait l'autre test, celui pour la puissance spirituelle... résultat sans appel ! La pierre ne s’est pas illuminée du tout, même pas un frémissement de lumière. Imaginez ma tête, moi qui croyais avoir un grand destin, je n'avais rien, même pas de familier. Tout le monde en a un, et ma mère une fois m'a montré le sien, je me souviens parfaitement, c'était le jour ou j'ai passé mon premier test avec la pierre de divination. Ce jour là, j'avais retenu mes larmes a l'école, je me faisais suffisamment charié comme ça. Une fois rentré chez moi, j'ai pleuré toutes les larmes de mon corps. Ma mère, pour me rassurer, m'a dit alors « Rassure toi, mon petit ange, tu es mon fils et tu es fort. Je vais te montrer quelque chose ». A ce moment là, elle fit apparaître un corbeau noir avec des reflets bleus, signe distinctif, le corbeau avait une petite barbiche blanche. Ce dernier me dit « peu de gens savent matérialiser un familier » et ma mère repris « si je peux le faire, alors tu le peux aussi ». Ça m'avait rassuré, et lorsque le corbeau disparu, ma mère devint chancelante, me sourit, et me répondit que c'était normal, que je n'avais pas à m'inquiéter, qu'elle allait se reposer un peu. Oui, j'étais le digne descendant de ma mère, alors tôt ou tard, je parviendrais à devenir fort. Mais après le résultat du dernier test je compris que ce n'était pas le cas. J'avais sûrement dû hériter de mon père... Peu importe, ce n'était pas si grave après tout. Je gardais espoir qu'un jour mes pouvoirs se dévoilent, et que je serais différent des autres.\n                N'ayant ni force martiale, ni force spirituelle, je devais chercher un travail qui ne demandait ni l'un ni l'autre. Après mes 10 ans j'enchainais les petit boulots, mais à chaque fois je me faisait renvoyer. Et à chaque fois pour les même raisons : trop tête en l'air ; toujours dans la lune ; rêvasse trop... j'en passe et des meilleurs. J’étais doué dans tout ce que je faisait, mais... Évidemment, si le travail ne me plait pas, mon esprit divague vers des aventures plus agréables. Ca n'empêche pas certains artisans de m'embaucher de temps à autre pour une journée, voir deux, mais rarement plus. Sur le court terme, je suis très concentré. Après quatre ans de changement de travail j'avais une base dans pratiquement tous les métiers de la ville. Lorsque vinrent mes 14 ans, j'entrepris de rejoindre une caravane de marchandise. Étant habile de mes mains et polyvalent, j'ai réussi à avoir une place pour embarquer avec eux. « L'aventure ! » Me suis-je dis. Oui, l'aventure, je dois bien l'avouer, je me sentais mieux ici que dans d'autres boulots. Je faisais un peu de tout essentiellement du bricolage et de la manutention. J'étais assez mal payé, mais cela m'importait peu, le plus important pour moi, c'était cette liberté de voyager, j'étais un aventurier et c'est tout ce qui comptait ! Après deux années passées en caravane, j'avais appris quelques passes d'armes, à force de soulever les marchandises j'étais un peu plus robuste, et les petites joutes faites avec les guerriers qui gardaient la caravane, m'avaient donné un peu d'endurance et de bonnes bases en combat. Un soir où la caravane était en bivouac, je m'éloignais un peu du campement, c'était la deuxième fois qu'on passait par ici en deux ans. Je me baladais un peu. J'aperçus au loin une étrange ruine. La curiosité me poussa à y jeter un œil. J'avais pris de l'assurance ces deux années, j'allais donc voir. Je m'introduis donc dans la bâtisse. Il y avait des squelettes dépouillés, éparpillés ici et là.\n                Vraisemblablement, l'endroit était truffé de piège. Mais qui dit piège, dit trésor ! J'entrepris de fouiller la zone en prenant soin de ne pas me faire happer par un piège quelconque. Parfois je voyais les pièges, mais la plupart du temps, je m'échappais in extremis d'une lame ou d'une volée de flèche. A croire que quelque part, un dieu ne voulait pas que je meure maintenant. Je fini par arriver dans une pièce, dans laquelle se trouvait une alcôve où gisait un squelette qui portait une cape finement ouvragée et tenait fermement un petit sac à dos très luxueux. Sur le moment, je me suis dit que c'était étrange. Tous les autres morts ne portaient rien. Je me souviens m'être approché lentement suspectant le piège. Une fois à portée de ces restes humains, la capte frémit et s'enroula autour de moi. D'abord, j'ai cru ma dernière heure arrivée, mais elle s'était simplement accrochée à mon cou comme si je l'avais moi-même mise là. Je me suis donc approché du sac pour le récupérer. C'est là que j'aperçu une petite bague noire en métal finement gravée sur un des doigts du cadavre. Je le mis a mon doigt, et pris le sac. Lorsque je regardai à l'intérieur, il n'y avait rien dedans. Mais vraiment rien ! Il n'y avait même pas de fond ! Je décidais de le prendre mais le sac était bien trop petit pour tenir sur mes épaules, je l’ai donc glissé en bandoulière. Etrangement, la route vers la sortie était plus rapide et plus simple qu'à l'arrivée. Une fois au dehors je m'apprêtais à partir en regardant une dernière fois les ruines, qui se volatilisèrent devant mes yeux. J'eus un frisson et une soudaine bouffé de chaleur. Je sentais la cape et le sac se mouvoir sur moi. Pris de panique, j'allais les retirer rapidement mais je me rendis compte que le sac était devenu un vieux sac en cuire simple parfaitement ajusté pour être porté en bandoulière, et la cape était devenue une simple cape en toile grisonnante. Pris de doutes, je jetai un œil à la bague, qui s'était elle aussi modifiée. Ce n'était a présent plus qu'un anneau de bois, mais toujours finement gravé. Je me souviens être resté là un moment, avec les idées confuses et des questions à en perdre la tête. J'avais peur, et pourtant, je me sentais rassuré.\n                Sur la route vers la caravane, je mis un caillou dans le sac, mais impossible de le récupérer. Il doit bien y avoir une solution pour le reprendre me suis-je dis. Et subitement je me suis retrouvé dans un endroit d'une blancheur immaculée. J'aperçus le caillou à mes pieds. Soudain, je suis revenu sur la route... Je fus perplexe, mais j'ai compris comment retrouver le caillou. Il me suffisait de vouloir le récupérer. La deuxième fois j’ai réussi à revenir dans la pièce blanche, et oui il y avait bien un caillou, mais pas que ça. La pièce était remplie de trésors, armes et lingots de toutes sortes. Il y avait des montages de pièces d'or, d'argent, de cuivre et de bronze. Surpris par tant de richesse, je suspectais un instant un piège. Mais vraisemblablement, rien de cela ici. Parcourant du regard la pièce, je me rendais compte qu’il y avait une pièce a ma gauche et une autre a ma droite. Je commencé à fouiner dans tout cet ensemble de bric à brac. Des armes et des armures de toutes sortes, mais mon regard s’attardant sur sur trois tenues exposées sur trois mannequins. Il y avait une armure intégrale toute noire, une étrange robe noire elle aussi, et une tenue de dandy ouvragé avec finesse et luxe. L’ancien propriétaire était à tous les coups un puissant Magus, ou... un grand voleur ! Dans les deux cas, la prudence était de mise ! Il y avait aussi quelques armes bien spécifiques placées sur des piédestals, elles étaient noires elles aussi. Il y avait deux masses d’armes, relativement petites, j’entrepris de les prendre en main. Elles étaient plus légères que ce que j’aurais cru, donnant un petit mouvement circulaires pour les soupesés, deux puissantes masses d’air apparurent et s'écrasèrent contre les armoires qu’il y avait à côté. J’étais surpris et reposa rapidement les armes. Je constatais qu’il y avait beaucoup de vêtements de tous types dans les armoires, et bien évidement je venais de faire une bêtise.. j’allais donc changer de pièce prestement. Partant dans celle de droite, il y avait un verger à perte de vue. J’aperçus un golem s’approcher vers moi lentement. Il portait à la main un très gros panier qu’il déposa à mes pieds avant de repartir. Dans le panier il y avait toutes sortes de fruits et de légumes. Il y avait des choses que je n’avais même jamais vues. Un peu stressé, j’entrepris de visiter l’autre pièce. Une fois à l’intérieur, il y avait une petite bibliothèque, et un bureau. Sur celui-ci il y avait un gros livre. Je passé les yeux sur la bibliothèque mais impossible de comprendre quoi que ce soit. C’était écrit dans un langage que je ne connaissais pas. Pourtant il y avait bien quelques livres qui avaient des titres en langage commun. Mais vraiment très peu. Je m’asseyais au bureau et toucha du doigt le gros livre. Celui-ci s’ouvrit subitement. Et c’est à ce moment là que je fis la connaissance de mon Maitre.\n                “Je vous salue,\n                Je suis Angelus Noircorbeau, héritier de Vladimir Cerberos, l’un des cinq Seigneurs des neufs Provinces. ”\n                J’adore cette présentation ! Bref, pour continuer mon histoire, il se trouve, comme vous l’avez compris, que mon Maître est Vladimir Cerberos. Cela fait plus de 30 000 ans que l’on n’a pas entendu parler de lui. Et ce n’est pas réellement lui que j’ai rencontré. C’est une image rémanente de lui gravée dans le gros livre du bureau. Vladimir ouvrit mon corps à son véritable pouvoir. et me refit faire le test des pierres : la première monta à 98, et la seconde s’illumina tellement qu’elle explosa. J’étais sidéré de constater la force qui était en moi. J’étais heureux et après l’avoir remercié de m’avoir pris sous son aile, je sortais du havre-sac pour reprendre la route vers la caravane. Mais mon corps devenait de plus en plus lourd. Et la douleur arrivait petit à petit. Je commençais à tituber. Sans réellement savoir pourquoi, je me suis mis à courir à toute vitesse, comme si je voulais fuir quelque chose, j’avais peur, je sentais mon heure arriver, alors j’ai fuis. j’ai couru aussi vite que j’ai pus, tombant de temps en temps, je continuais à courir de plus bel. La douleur était atroce. Mes bras prirent en volume, mes jambes et le reste de mon corps aussi. Comme si mes muscles se déchiraient... ces derniers saillant et apparent s’ajustaient dans ma tenue trop lâche pour moi. La douleur était insoutenable, ma vision se brouillait. Je fini par m’écrouler dans une rivière et m’évanouis. Le courant trop fort m’emporta avec lui.\n                Je me réveillais dans une belle chambre joliment décorée, nu et couvert de bandage. Mon premier réflexe fut de chercher du regard mes affaires. Mon havresac et la cape était accrochés près du lit. Je tendais l’oreille et j’entendais au loin une femme chantonner. C’est ici que je fis la connaissance de Lucie Verdillia, une magnifique elfe buveuse de sang. Elle m'a appris à cuisiner des légumes que je n’avais jamais vus, et à entrer dans mon monde intérieur. Je suis tombé amoureux d’elle.. Et ce qui devait arriver arriva… Je perdis ma vertue avec elle. Une femme d’une beauté sans pareille. Après plusieurs semaines à ses côtés, elle m’incita à prendre la route. J’avais encore des choses à faire. Je me devais de me diriger vers une petite ville de campagne qui accueillait bientôt les sélections pour les académies. Et mon maître m’avait bien indiqué que je devais absolument m’y rendre. Je pris la route et m’y rendis.\n                Il y eut bien quelques péripéties sur la route, mais je n’ai pas beaucoup de temps devant moi, alors je vais à l’essentiel, je ferais en sorte de tenir mon journal de bord dès que possible les prochaines fois.\n                Une fois arrivé dans la ville, je fis pas mal de connaissances, j’achetais ma première blague à tabac, ma première pipe. Je fis aussi mes premiers duels en arène. J’étais devenu adepte de niveau un. Et mon élément de prédilection est la glace. Je me pris d’amitié pour un fantôme près des ruines sur une petite coline où je me détends le soir. Elle m’offrit trois graines d’une plante. J’en plantai une pour la remercier et gardai les deux autres. C’est aussi ici que je passai adepte de niveau deux. Je pris le temps d’affiner mes attaques, et de façonner mon monde intérieur. Ce dernier était totalement enneigé et prit petit à petit des couleurs. j’avais à présent un petit lac où se déversait une petite cascade, mon cristal de pouvoir intérieur surplombait un îlot au centre du lac, la température y était douce et agréable. a coté du lac j’ai recrée la maison de mon enfance. J’ai aussi pris le temps d’envoyer une lettre à ma mère pour l’avertir que j’étais toujours vivant. Puis vint l’heure où je devais prendre la caravane pour aller à l’académie des montagnes bleues.\n                Dans la caravane je fis la connaissance de Cyluh et Luhcy. Deux magnifiques jeunes femmes qui ne me laissaient pas indifférent. Je les avais débarrassées d’un envahisseur en feintant que l’une d’elle était ma petite amie. Luhcy semble maîtriser le froid, et Cyluh la chaleur. Je ne m’attardais pas, je ne voulais pas passer pour un envahisseur à mon tour. J’allais donc m’installer dans une cabine seul. Et c’est là que j’ai fait la connaissance de Neville GRAYRATIS, un petit gros fort sympathique, qui mange comme quatre et s’en met de partout dans sa gourmandise. Mais ne pas se fier aux apparences, je l’ai vu créer un pentacle de téléportation ou je ne sais quoi, qui lui permit de matérialiser son familier, un ÉNORME rat, tellement gras qu’il a du mal à marcher. Je pense que ce sera avec lui que je vais traîner à l’académie. Voilà quelques heures que nous sommes en route pour l’académie. Neville s’est endormi, j’en profite pour commencer mon journal. Voilà pour le résumé ! Je reviendrais bientôt pour y noter plus précisément ce qui se passera prochainement.\n              "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-card-text",
+                    {
+                      staticClass: "mt-n10",
+                      style: "font-size:" + _vm.police + "px"
+                    },
+                    [
+                      _vm._v(
+                        "\n          Je vais bientôt entrer dans l'académie des Montagnes Bleues. Mon avenir est tracé ! Pour garder en mémoire mes aventures je vais coucher sur papier ce que j'ai vécu. Mais d'abord, faisons un bref résumé de qui je suis...\n          Je m'appelle Angelus Noircorbeau, fils de Ygerne Noircorbeau serveuse dans une taverne. D'après ma mère mon père serait mort peu après ma naissance. Je suis né pendant un mois de grande chaleur, et ma mère me disait que ce jour là la neige tomba subitement. Avec cela, j’ai longtemps cru que j’avais un grand destin, mais la réalité était tout autre ! Comme tous les enfants, à 6 ans j'ai passé le test pour vérifier ma puissance martial sur la pierre de divination... Et le résultat était plus qu’affligeant... j'ai fait 4. Plus tard, à 10 ans, j'ai fait l'autre test, celui pour la puissance spirituelle... résultat sans appel ! La pierre ne s’est pas illuminée du tout, même pas un frémissement de lumière. Imaginez ma tête, moi qui croyais avoir un grand destin, je n'avais rien, même pas de familier. Tout le monde en a un, et ma mère une fois m'a montré le sien, je me souviens parfaitement, c'était le jour ou j'ai passé mon premier test avec la pierre de divination. Ce jour là, j'avais retenu mes larmes a l'école, je me faisais suffisamment charié comme ça. Une fois rentré chez moi, j'ai pleuré toutes les larmes de mon corps. Ma mère, pour me rassurer, m'a dit alors « Rassure toi, mon petit ange, tu es mon fils et tu es fort. Je vais te montrer quelque chose ». A ce moment là, elle fit apparaître un corbeau noir avec des reflets bleus, signe distinctif, le corbeau avait une petite barbiche blanche. Ce dernier me dit « peu de gens savent matérialiser un familier » et ma mère repris « si je peux le faire, alors tu le peux aussi ». Ça m'avait rassuré, et lorsque le corbeau disparu, ma mère devint chancelante, me sourit, et me répondit que c'était normal, que je n'avais pas à m'inquiéter, qu'elle allait se reposer un peu. Oui, j'étais le digne descendant de ma mère, alors tôt ou tard, je parviendrais à devenir fort. Mais après le résultat du dernier test je compris que ce n'était pas le cas. J'avais sûrement dû hériter de mon père... Peu importe, ce n'était pas si grave après tout. Je gardais espoir qu'un jour mes pouvoirs se dévoilent, et que je serais différent des autres.\n          N'ayant ni force martiale, ni force spirituelle, je devais chercher un travail qui ne demandait ni l'un ni l'autre. Après mes 10 ans j'enchainais les petit boulots, mais à chaque fois je me faisait renvoyer. Et à chaque fois pour les même raisons : trop tête en l'air ; toujours dans la lune ; rêvasse trop... j'en passe et des meilleurs. J’étais doué dans tout ce que je faisait, mais... Évidemment, si le travail ne me plait pas, mon esprit divague vers des aventures plus agréables. Ca n'empêche pas certains artisans de m'embaucher de temps à autre pour une journée, voir deux, mais rarement plus. Sur le court terme, je suis très concentré. Après quatre ans de changement de travail j'avais une base dans pratiquement tous les métiers de la ville. Lorsque vinrent mes 14 ans, j'entrepris de rejoindre une caravane de marchandise. Étant habile de mes mains et polyvalent, j'ai réussi à avoir une place pour embarquer avec eux. « L'aventure ! » Me suis-je dis. Oui, l'aventure, je dois bien l'avouer, je me sentais mieux ici que dans d'autres boulots. Je faisais un peu de tout essentiellement du bricolage et de la manutention. J'étais assez mal payé, mais cela m'importait peu, le plus important pour moi, c'était cette liberté de voyager, j'étais un aventurier et c'est tout ce qui comptait ! Après deux années passées en caravane, j'avais appris quelques passes d'armes, à force de soulever les marchandises j'étais un peu plus robuste, et les petites joutes faites avec les guerriers qui gardaient la caravane, m'avaient donné un peu d'endurance et de bonnes bases en combat. Un soir où la caravane était en bivouac, je m'éloignais un peu du campement, c'était la deuxième fois qu'on passait par ici en deux ans. Je me baladais un peu. J'aperçus au loin une étrange ruine. La curiosité me poussa à y jeter un œil. J'avais pris de l'assurance ces deux années, j'allais donc voir. Je m'introduis donc dans la bâtisse. Il y avait des squelettes dépouillés, éparpillés ici et là.\n          Vraisemblablement, l'endroit était truffé de piège. Mais qui dit piège, dit trésor ! J'entrepris de fouiller la zone en prenant soin de ne pas me faire happer par un piège quelconque. Parfois je voyais les pièges, mais la plupart du temps, je m'échappais in extremis d'une lame ou d'une volée de flèche. A croire que quelque part, un dieu ne voulait pas que je meure maintenant. Je fini par arriver dans une pièce, dans laquelle se trouvait une alcôve où gisait un squelette qui portait une cape finement ouvragée et tenait fermement un petit sac à dos très luxueux. Sur le moment, je me suis dit que c'était étrange. Tous les autres morts ne portaient rien. Je me souviens m'être approché lentement suspectant le piège. Une fois à portée de ces restes humains, la capte frémit et s'enroula autour de moi. D'abord, j'ai cru ma dernière heure arrivée, mais elle s'était simplement accrochée à mon cou comme si je l'avais moi-même mise là. Je me suis donc approché du sac pour le récupérer. C'est là que j'aperçu une petite bague noire en métal finement gravée sur un des doigts du cadavre. Je le mis a mon doigt, et pris le sac. Lorsque je regardai à l'intérieur, il n'y avait rien dedans. Mais vraiment rien ! Il n'y avait même pas de fond ! Je décidais de le prendre mais le sac était bien trop petit pour tenir sur mes épaules, je l’ai donc glissé en bandoulière. Etrangement, la route vers la sortie était plus rapide et plus simple qu'à l'arrivée. Une fois au dehors je m'apprêtais à partir en regardant une dernière fois les ruines, qui se volatilisèrent devant mes yeux. J'eus un frisson et une soudaine bouffé de chaleur. Je sentais la cape et le sac se mouvoir sur moi. Pris de panique, j'allais les retirer rapidement mais je me rendis compte que le sac était devenu un vieux sac en cuire simple parfaitement ajusté pour être porté en bandoulière, et la cape était devenue une simple cape en toile grisonnante. Pris de doutes, je jetai un œil à la bague, qui s'était elle aussi modifiée. Ce n'était a présent plus qu'un anneau de bois, mais toujours finement gravé. Je me souviens être resté là un moment, avec les idées confuses et des questions à en perdre la tête. J'avais peur, et pourtant, je me sentais rassuré.\n          Sur la route vers la caravane, je mis un caillou dans le sac, mais impossible de le récupérer. Il doit bien y avoir une solution pour le reprendre me suis-je dis. Et subitement je me suis retrouvé dans un endroit d'une blancheur immaculée. J'aperçus le caillou à mes pieds. Soudain, je suis revenu sur la route... Je fus perplexe, mais j'ai compris comment retrouver le caillou. Il me suffisait de vouloir le récupérer. La deuxième fois j’ai réussi à revenir dans la pièce blanche, et oui il y avait bien un caillou, mais pas que ça. La pièce était remplie de trésors, armes et lingots de toutes sortes. Il y avait des montages de pièces d'or, d'argent, de cuivre et de bronze. Surpris par tant de richesse, je suspectais un instant un piège. Mais vraisemblablement, rien de cela ici. Parcourant du regard la pièce, je me rendais compte qu’il y avait une pièce a ma gauche et une autre a ma droite. Je commencé à fouiner dans tout cet ensemble de bric à brac. Des armes et des armures de toutes sortes, mais mon regard s’attardant sur sur trois tenues exposées sur trois mannequins. Il y avait une armure intégrale toute noire, une étrange robe noire elle aussi, et une tenue de dandy ouvragé avec finesse et luxe. L’ancien propriétaire était à tous les coups un puissant Magus, ou... un grand voleur ! Dans les deux cas, la prudence était de mise ! Il y avait aussi quelques armes bien spécifiques placées sur des piédestals, elles étaient noires elles aussi. Il y avait deux masses d’armes, relativement petites, j’entrepris de les prendre en main. Elles étaient plus légères que ce que j’aurais cru, donnant un petit mouvement circulaires pour les soupesés, deux puissantes masses d’air apparurent et s'écrasèrent contre les armoires qu’il y avait à côté. J’étais surpris et reposa rapidement les armes. Je constatais qu’il y avait beaucoup de vêtements de tous types dans les armoires, et bien évidement je venais de faire une bêtise.. j’allais donc changer de pièce prestement. Partant dans celle de droite, il y avait un verger à perte de vue. J’aperçus un golem s’approcher vers moi lentement. Il portait à la main un très gros panier qu’il déposa à mes pieds avant de repartir. Dans le panier il y avait toutes sortes de fruits et de légumes. Il y avait des choses que je n’avais même jamais vues. Un peu stressé, j’entrepris de visiter l’autre pièce. Une fois à l’intérieur, il y avait une petite bibliothèque, et un bureau. Sur celui-ci il y avait un gros livre. Je passé les yeux sur la bibliothèque mais impossible de comprendre quoi que ce soit. C’était écrit dans un langage que je ne connaissais pas. Pourtant il y avait bien quelques livres qui avaient des titres en langage commun. Mais vraiment très peu. Je m’asseyais au bureau et toucha du doigt le gros livre. Celui-ci s’ouvrit subitement. Et c’est à ce moment là que je fis la connaissance de mon Maitre.\n          “Je vous salue,\n          Je suis Angelus Noircorbeau, héritier de Vladimir Cerberos, l’un des cinq Seigneurs des neufs Provinces. ”\n          J’adore cette présentation ! Bref, pour continuer mon histoire, il se trouve, comme vous l’avez compris, que mon Maître est Vladimir Cerberos. Cela fait plus de 30 000 ans que l’on n’a pas entendu parler de lui. Et ce n’est pas réellement lui que j’ai rencontré. C’est une image rémanente de lui gravée dans le gros livre du bureau. Vladimir ouvrit mon corps à son véritable pouvoir. et me refit faire le test des pierres : la première monta à 98, et la seconde s’illumina tellement qu’elle explosa. J’étais sidéré de constater la force qui était en moi. J’étais heureux et après l’avoir remercié de m’avoir pris sous son aile, je sortais du havre-sac pour reprendre la route vers la caravane. Mais mon corps devenait de plus en plus lourd. Et la douleur arrivait petit à petit. Je commençais à tituber. Sans réellement savoir pourquoi, je me suis mis à courir à toute vitesse, comme si je voulais fuir quelque chose, j’avais peur, je sentais mon heure arriver, alors j’ai fuis. j’ai couru aussi vite que j’ai pus, tombant de temps en temps, je continuais à courir de plus bel. La douleur était atroce. Mes bras prirent en volume, mes jambes et le reste de mon corps aussi. Comme si mes muscles se déchiraient... ces derniers saillant et apparent s’ajustaient dans ma tenue trop lâche pour moi. La douleur était insoutenable, ma vision se brouillait. Je fini par m’écrouler dans une rivière et m’évanouis. Le courant trop fort m’emporta avec lui.\n          Je me réveillais dans une belle chambre joliment décorée, nu et couvert de bandage. Mon premier réflexe fut de chercher du regard mes affaires. Mon havresac et la cape était accrochés près du lit. Je tendais l’oreille et j’entendais au loin une femme chantonner. C’est ici que je fis la connaissance de Lucie Verdillia, une magnifique elfe buveuse de sang. Elle m'a appris à cuisiner des légumes que je n’avais jamais vus, et à entrer dans mon monde intérieur. Je suis tombé amoureux d’elle.. Et ce qui devait arriver arriva… Je perdis ma vertue avec elle. Une femme d’une beauté sans pareille. Après plusieurs semaines à ses côtés, elle m’incita à prendre la route. J’avais encore des choses à faire. Je me devais de me diriger vers une petite ville de campagne qui accueillait bientôt les sélections pour les académies. Et mon maître m’avait bien indiqué que je devais absolument m’y rendre. Je pris la route et m’y rendis.\n          Il y eut bien quelques péripéties sur la route, mais je n’ai pas beaucoup de temps devant moi, alors je vais à l’essentiel, je ferais en sorte de tenir mon journal de bord dès que possible les prochaines fois.\n          Une fois arrivé dans la ville, je fis pas mal de connaissances, j’achetais ma première blague à tabac, ma première pipe. Je fis aussi mes premiers duels en arène. J’étais devenu adepte de niveau un. Et mon élément de prédilection est la glace. Je me pris d’amitié pour un fantôme près des ruines sur une petite coline où je me détends le soir. Elle m’offrit trois graines d’une plante. J’en plantai une pour la remercier et gardai les deux autres. C’est aussi ici que je passai adepte de niveau deux. Je pris le temps d’affiner mes attaques, et de façonner mon monde intérieur. Ce dernier était totalement enneigé et prit petit à petit des couleurs. j’avais à présent un petit lac où se déversait une petite cascade, mon cristal de pouvoir intérieur surplombait un îlot au centre du lac, la température y était douce et agréable. a coté du lac j’ai recrée la maison de mon enfance. J’ai aussi pris le temps d’envoyer une lettre à ma mère pour l’avertir que j’étais toujours vivant. Puis vint l’heure où je devais prendre la caravane pour aller à l’académie des montagnes bleues.\n          Dans la caravane je fis la connaissance de Cyluh et Luhcy. Deux magnifiques jeunes femmes qui ne me laissaient pas indifférent. Je les avais débarrassées d’un envahisseur en feintant que l’une d’elle était ma petite amie. Luhcy semble maîtriser le froid, et Cyluh la chaleur. Je ne m’attardais pas, je ne voulais pas passer pour un envahisseur à mon tour. J’allais donc m’installer dans une cabine seul. Et c’est là que j’ai fait la connaissance de Neville GRAYRATIS, un petit gros fort sympathique, qui mange comme quatre et s’en met de partout dans sa gourmandise. Mais ne pas se fier aux apparences, je l’ai vu créer un pentacle de téléportation ou je ne sais quoi, qui lui permit de matérialiser son familier, un ÉNORME rat, tellement gras qu’il a du mal à marcher. Je pense que ce sera avec lui que je vais traîner à l’académie. Voilà quelques heures que nous sommes en route pour l’académie. Neville s’est endormi, j’en profite pour commencer mon journal. Voilà pour le résumé ! Je reviendrais bientôt pour y noter plus précisément ce qui se passera prochainement.\n        "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-card-actions",
+                    { attrs: { width: "100%" } },
+                    [
+                      _c(
+                        "v-row",
+                        { staticClass: "d-flex justify-space-between" },
+                        [
+                          _c(
+                            "v-col",
+                            {
+                              staticClass: "ma-0 pa-0",
+                              attrs: { cols: "12", md: "4" }
+                            },
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  staticClass: "ma-0 pa-0 justify-start",
+                                  attrs: { text: "", width: "100%" }
+                                },
+                                [
+                                  _c(
+                                    "v-icon",
+                                    {
+                                      staticClass: "pa-2",
+                                      attrs: { icon: "" }
+                                    },
+                                    [_vm._v("mdi-chevron-left")]
+                                  ),
+                                  _vm._v("chapitre précedent\n              ")
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            {
+                              staticClass: "ma-0 pa-0",
+                              attrs: { cols: "12", md: "4" }
+                            },
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  staticClass: "ma-0 pa-0",
+                                  attrs: { text: "", width: "100%" }
+                                },
+                                [_vm._v("liste des chapitres")]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            {
+                              staticClass: "ma-0 pa-0",
+                              attrs: { cols: "12", md: "4" }
+                            },
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  staticClass: "ma-0 pa-0 justify-end",
+                                  attrs: { text: "", width: "100%" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                chapitre suivant\n                "
+                                  ),
+                                  _c(
+                                    "v-icon",
+                                    {
+                                      staticClass: "pa-2",
+                                      attrs: { icon: "" }
+                                    },
+                                    [_vm._v("mdi-chevron-right")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-col",
+            [
+              _c(
+                "v-card",
+                {
+                  staticClass: "pa-1 mb-3 d-flex flex-column",
+                  attrs: { width: "100%" }
+                },
+                [_vm._v("information suplémentaires")]
+              ),
+              _vm._v(" "),
+              _c(
+                "v-card",
+                {
+                  staticClass: "pa-1 mb-3 d-flex flex-column",
+                  attrs: { width: "100%" }
+                },
+                [_vm._v("Historique des modifications")]
+              ),
+              _vm._v(" "),
+              _c(
+                "v-card",
+                {
+                  staticClass: "pa-1 mb-3 d-flex flex-column",
+                  attrs: { width: "100%" }
+                },
+                [_vm._v("Derniers commentaires")]
               )
             ],
             1
@@ -26723,7 +28790,8 @@ var render = function() {
       ),
       _vm._v(" "),
       _c(
-        "v-content",
+        "v-main",
+        { staticClass: "blue-grey lighten-4" },
         [
           _c(
             "v-container",
@@ -26826,11 +28894,29 @@ var render = function() {
         "v-app-bar",
         { staticClass: "ma-0 pa-0", attrs: { color: "deep-black", dark: "" } },
         [
-          _c("v-toolbar-title", { staticClass: "pa-3" }, [
-            _vm._v("Le Continent des Neufs Provinces")
-          ]),
+          _c(
+            "div",
+            { staticClass: "pa-3 text-sm-h1 text-sm-h5", attrs: { to: "/" } },
+            [_vm._v("Le Continent des Neufs Provinces")]
+          ),
           _vm._v(" "),
           _c("v-spacer"),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "mb-0 pa-0 d-flex" },
+            [
+              _c("v-icon", { staticClass: "ma-0 pa-0" }, [
+                _vm._v("mdi-magnify")
+              ]),
+              _vm._v(" "),
+              _c("v-autocomplete", {
+                staticClass: "mb-n3 pl-5",
+                attrs: { label: "Recherche" }
+              })
+            ],
+            1
+          ),
           _vm._v(" "),
           _c("v-app-bar-nav-icon", {
             staticClass: "pa-3",
@@ -26863,31 +28949,56 @@ var render = function() {
             [
               _c("v-card-title", [_vm._v("Le Continent des Neufs Provinces")]),
               _vm._v(" "),
+              _c(
+                "v-list-item",
+                [
+                  _c(
+                    "v-btn",
+                    {
+                      staticClass: "padding d-flex",
+                      attrs: { text: "", to: "/login", width: "100%" }
+                    },
+                    [
+                      _c(
+                        "v-list-item-icon",
+                        [_c("v-icon", [_vm._v("mdi-account")])],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("v-list-item-title", [_vm._v("Se connecter")])
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
               _c("v-divider", { staticClass: "my-5" }),
               _vm._v(" "),
               _c(
                 "v-list-item-group",
-                {
-                  attrs: { "active-class": "orange--text text--accent-4" },
-                  model: {
-                    value: _vm.group,
-                    callback: function($$v) {
-                      _vm.group = $$v
-                    },
-                    expression: "group"
-                  }
-                },
+                { attrs: { "active-class": "orange--text text--accent-4" } },
                 [
                   _c(
                     "v-list-item",
                     [
                       _c(
-                        "v-list-item-icon",
-                        [_c("v-icon", [_vm._v("mdi-home")])],
+                        "v-btn",
+                        {
+                          staticClass: "padding d-flex",
+                          attrs: { text: "", to: "/", width: "100%" }
+                        },
+                        [
+                          _c(
+                            "v-list-item-icon",
+                            [_c("v-icon", [_vm._v("mdi-home")])],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("v-list-item-title", [_vm._v("Accueil")])
+                        ],
                         1
-                      ),
-                      _vm._v(" "),
-                      _c("v-list-item-title", [_vm._v("Accueil")])
+                      )
                     ],
                     1
                   ),
@@ -26896,25 +29007,62 @@ var render = function() {
                     "v-list-item",
                     [
                       _c(
-                        "v-list-item-icon",
-                        [_c("v-icon", [_vm._v("mdi-account")])],
+                        "v-btn",
+                        {
+                          staticClass: "padding d-flex",
+                          attrs: {
+                            text: "",
+                            to: "/bibliotheque",
+                            width: "100%"
+                          }
+                        },
+                        [
+                          _c(
+                            "v-list-item-icon",
+                            [
+                              _c("v-icon", [
+                                _vm._v("mdi-book-open-page-variant")
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("v-list-item-title", [_vm._v("Bibliothéque")])
+                        ],
                         1
-                      ),
-                      _vm._v(" "),
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-list-item",
+                    [
                       _c(
                         "v-btn",
                         {
                           staticClass: "padding d-flex",
-                          attrs: { text: "", to: "/login" }
+                          attrs: { text: "", to: "/wiki", width: "100%" }
                         },
-                        [_vm._v("Se connecter")]
+                        [
+                          _c(
+                            "v-list-item-icon",
+                            [_c("v-icon", [_vm._v("mdi-wikipedia")])],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("v-list-item-title", [_vm._v("Le Wiki")])
+                        ],
+                        1
                       )
                     ],
                     1
                   )
                 ],
                 1
-              )
+              ),
+              _vm._v(" "),
+              _c("v-divider", { staticClass: "my-5" })
             ],
             1
           )
@@ -86172,6 +88320,78 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/vue/composants/accueil/Apropos.js?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/vue/composants/accueil/Apropos.js?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!./Apropos.js?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./resources/js/vue/composants/accueil/Apropos.js?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/accueil/Apropos.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/vue/composants/accueil/Apropos.vue ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Apropos_vue_vue_type_template_id_4a405a38___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Apropos.vue?vue&type=template&id=4a405a38& */ "./resources/js/vue/composants/accueil/Apropos.vue?vue&type=template&id=4a405a38&");
+/* harmony import */ var _Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Apropos.js?vue&type=script&lang=js& */ "./resources/js/vue/composants/accueil/Apropos.js?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Apropos_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Apropos_vue_vue_type_template_id_4a405a38___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Apropos_vue_vue_type_template_id_4a405a38___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/vue/composants/accueil/Apropos.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/accueil/Apropos.vue?vue&type=template&id=4a405a38&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/vue/composants/accueil/Apropos.vue?vue&type=template&id=4a405a38& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Apropos_vue_vue_type_template_id_4a405a38___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Apropos.vue?vue&type=template&id=4a405a38& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/accueil/Apropos.vue?vue&type=template&id=4a405a38&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Apropos_vue_vue_type_template_id_4a405a38___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Apropos_vue_vue_type_template_id_4a405a38___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/vue/composants/accueil/Carousel.js?vue&type=script&lang=js&":
 /*!**********************************************************************************!*\
   !*** ./resources/js/vue/composants/accueil/Carousel.js?vue&type=script&lang=js& ***!
@@ -86244,6 +88464,78 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/vue/composants/accueil/Histoire.js?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/vue/composants/accueil/Histoire.js?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!./Histoire.js?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./resources/js/vue/composants/accueil/Histoire.js?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/accueil/Histoire.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/vue/composants/accueil/Histoire.vue ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Histoire_vue_vue_type_template_id_4b8091ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Histoire.vue?vue&type=template&id=4b8091ba& */ "./resources/js/vue/composants/accueil/Histoire.vue?vue&type=template&id=4b8091ba&");
+/* harmony import */ var _Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Histoire.js?vue&type=script&lang=js& */ "./resources/js/vue/composants/accueil/Histoire.js?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Histoire_js_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Histoire_vue_vue_type_template_id_4b8091ba___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Histoire_vue_vue_type_template_id_4b8091ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/vue/composants/accueil/Histoire.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/accueil/Histoire.vue?vue&type=template&id=4b8091ba&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/vue/composants/accueil/Histoire.vue?vue&type=template&id=4b8091ba& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Histoire_vue_vue_type_template_id_4b8091ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Histoire.vue?vue&type=template&id=4b8091ba& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/accueil/Histoire.vue?vue&type=template&id=4b8091ba&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Histoire_vue_vue_type_template_id_4b8091ba___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Histoire_vue_vue_type_template_id_4b8091ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/vue/composants/auth/Login.js?vue&type=script&lang=js&":
 /*!****************************************************************************!*\
   !*** ./resources/js/vue/composants/auth/Login.js?vue&type=script&lang=js& ***!
@@ -86308,6 +88600,283 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_template_id_da4eff8a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_template_id_da4eff8a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/index/Wiki.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/vue/composants/index/Wiki.vue ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Wiki_vue_vue_type_template_id_6f6d5d86___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Wiki.vue?vue&type=template&id=6f6d5d86& */ "./resources/js/vue/composants/index/Wiki.vue?vue&type=template&id=6f6d5d86&");
+/* harmony import */ var _Wiki_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Wiki.vue?vue&type=script&lang=js& */ "./resources/js/vue/composants/index/Wiki.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Wiki_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Wiki_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Wiki_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Wiki_vue_vue_type_template_id_6f6d5d86___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Wiki_vue_vue_type_template_id_6f6d5d86___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/vue/composants/index/Wiki.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/index/Wiki.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/vue/composants/index/Wiki.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Wiki_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Wiki.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/index/Wiki.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Wiki_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/index/Wiki.vue?vue&type=template&id=6f6d5d86&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/vue/composants/index/Wiki.vue?vue&type=template&id=6f6d5d86& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Wiki_vue_vue_type_template_id_6f6d5d86___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Wiki.vue?vue&type=template&id=6f6d5d86& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/index/Wiki.vue?vue&type=template&id=6f6d5d86&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Wiki_vue_vue_type_template_id_6f6d5d86___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Wiki_vue_vue_type_template_id_6f6d5d86___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/texte/Bibliotheque.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/vue/composants/texte/Bibliotheque.vue ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Bibliotheque_vue_vue_type_template_id_087b4037___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Bibliotheque.vue?vue&type=template&id=087b4037& */ "./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=template&id=087b4037&");
+/* harmony import */ var _Bibliotheque_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Bibliotheque.vue?vue&type=script&lang=js& */ "./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Bibliotheque_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Bibliotheque_vue_vue_type_template_id_087b4037___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Bibliotheque_vue_vue_type_template_id_087b4037___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/vue/composants/texte/Bibliotheque.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Bibliotheque_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Bibliotheque.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Bibliotheque_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=template&id=087b4037&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=template&id=087b4037& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Bibliotheque_vue_vue_type_template_id_087b4037___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Bibliotheque.vue?vue&type=template&id=087b4037& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Bibliotheque.vue?vue&type=template&id=087b4037&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Bibliotheque_vue_vue_type_template_id_087b4037___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Bibliotheque_vue_vue_type_template_id_087b4037___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/texte/Chapitre.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/vue/composants/texte/Chapitre.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Chapitre_vue_vue_type_template_id_ad8c94fc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Chapitre.vue?vue&type=template&id=ad8c94fc& */ "./resources/js/vue/composants/texte/Chapitre.vue?vue&type=template&id=ad8c94fc&");
+/* harmony import */ var _Chapitre_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Chapitre.vue?vue&type=script&lang=js& */ "./resources/js/vue/composants/texte/Chapitre.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Chapitre_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Chapitre_vue_vue_type_template_id_ad8c94fc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Chapitre_vue_vue_type_template_id_ad8c94fc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/vue/composants/texte/Chapitre.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/texte/Chapitre.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/vue/composants/texte/Chapitre.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Chapitre_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Chapitre.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Chapitre.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Chapitre_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/texte/Chapitre.vue?vue&type=template&id=ad8c94fc&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/vue/composants/texte/Chapitre.vue?vue&type=template&id=ad8c94fc& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Chapitre_vue_vue_type_template_id_ad8c94fc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Chapitre.vue?vue&type=template&id=ad8c94fc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Chapitre.vue?vue&type=template&id=ad8c94fc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Chapitre_vue_vue_type_template_id_ad8c94fc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Chapitre_vue_vue_type_template_id_ad8c94fc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/texte/Histoire.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/vue/composants/texte/Histoire.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Histoire_vue_vue_type_template_id_0c34d4bf___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Histoire.vue?vue&type=template&id=0c34d4bf& */ "./resources/js/vue/composants/texte/Histoire.vue?vue&type=template&id=0c34d4bf&");
+/* harmony import */ var _Histoire_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Histoire.vue?vue&type=script&lang=js& */ "./resources/js/vue/composants/texte/Histoire.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Histoire_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Histoire_vue_vue_type_template_id_0c34d4bf___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Histoire_vue_vue_type_template_id_0c34d4bf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/vue/composants/texte/Histoire.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/texte/Histoire.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/vue/composants/texte/Histoire.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Histoire_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Histoire.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Histoire.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Histoire_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/vue/composants/texte/Histoire.vue?vue&type=template&id=0c34d4bf&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/vue/composants/texte/Histoire.vue?vue&type=template&id=0c34d4bf& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Histoire_vue_vue_type_template_id_0c34d4bf___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Histoire.vue?vue&type=template&id=0c34d4bf& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/vue/composants/texte/Histoire.vue?vue&type=template&id=0c34d4bf&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Histoire_vue_vue_type_template_id_0c34d4bf___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Histoire_vue_vue_type_template_id_0c34d4bf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -86517,8 +89086,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _composants_Accueil_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./composants/Accueil.vue */ "./resources/js/vue/composants/Accueil.vue");
-/* harmony import */ var _composants_auth_Login_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./composants/auth/Login.vue */ "./resources/js/vue/composants/auth/Login.vue");
-/* harmony import */ var _services_authentication_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_services/authentication.service */ "./resources/js/_services/authentication.service.js");
+/* harmony import */ var _composants_texte_Bibliotheque_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./composants/texte/Bibliotheque.vue */ "./resources/js/vue/composants/texte/Bibliotheque.vue");
+/* harmony import */ var _composants_texte_Chapitre_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./composants/texte/Chapitre.vue */ "./resources/js/vue/composants/texte/Chapitre.vue");
+/* harmony import */ var _composants_texte_Histoire_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./composants/texte/Histoire.vue */ "./resources/js/vue/composants/texte/Histoire.vue");
+/* harmony import */ var _composants_index_Wiki_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./composants/index/Wiki.vue */ "./resources/js/vue/composants/index/Wiki.vue");
+/* harmony import */ var _composants_auth_Login_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./composants/auth/Login.vue */ "./resources/js/vue/composants/auth/Login.vue");
+/* harmony import */ var _services_authentication_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../_services/authentication.service */ "./resources/js/_services/authentication.service.js");
+
+
+
+
 
 
 
@@ -86530,14 +89107,27 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: [{
     path: '/',
     name: 'accueil',
-    component: _composants_Accueil_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    meta: {
-      authorize: []
-    }
+    component: _composants_Accueil_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }, {
+    path: '/bibliotheque',
+    name: 'bibliotheque',
+    component: _composants_texte_Bibliotheque_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+  }, {
+    path: '/chapitre',
+    name: 'chapitre',
+    component: _composants_texte_Chapitre_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
+  }, {
+    path: '/histoire',
+    name: 'histoire',
+    component: _composants_texte_Histoire_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
+  }, {
+    path: '/wiki',
+    name: 'wiki',
+    component: _composants_index_Wiki_vue__WEBPACK_IMPORTED_MODULE_6__["default"]
   }, {
     path: '/login',
     name: 'login',
-    component: _composants_auth_Login_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+    component: _composants_auth_Login_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
   }, // otherwise redirect to home
   {
     path: '*',
@@ -86549,7 +89139,7 @@ router.beforeEach(function (to, from, next) {
   var authorize = to.meta.authorize;
 
   if (authorize && !_.isEmpty(authorize)) {
-    var currentUser = _services_authentication_service__WEBPACK_IMPORTED_MODULE_4__["authenticationService"].currentUserValue; // console.log(authenticationService.currentUserValue);
+    var currentUser = _services_authentication_service__WEBPACK_IMPORTED_MODULE_8__["authenticationService"].currentUserValue; // console.log(authenticationService.currentUserValue);
 
     if (!currentUser) {
       // not logged in so redirect to login page with the return url

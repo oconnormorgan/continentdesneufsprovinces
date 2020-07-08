@@ -1,4 +1,7 @@
 import Carousel from './accueil/Carousel.vue';
+import Apropos from './accueil/Apropos.vue';
+import Histoire from './accueil/Histoire.vue';
+
 
 import {
   authenticationService
@@ -7,17 +10,8 @@ import {
 export default {
     components: {
         Carousel,
-    },
-    data() {
-        return {
-            colors: [
-                "indigo",
-                "warning",
-                "pink darken-2",
-                "red lighten-1",
-                "deep-purple accent-4"
-            ],
-        };
+        Apropos,
+        Histoire,
     },
     computed: {
         username() {
