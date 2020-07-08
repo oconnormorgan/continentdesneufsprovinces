@@ -26861,7 +26861,7 @@ var render = function() {
             "v-list",
             { attrs: { nav: "", dense: "" } },
             [
-              _c("v-title", [_vm._v("Le Continent des Neufs Provinces")]),
+              _c("v-card-title", [_vm._v("Le Continent des Neufs Provinces")]),
               _vm._v(" "),
               _c("v-divider", { staticClass: "my-5" }),
               _vm._v(" "),
@@ -26901,7 +26901,14 @@ var render = function() {
                         1
                       ),
                       _vm._v(" "),
-                      _c("v-list-item-title", [_vm._v("Mon compte")])
+                      _c(
+                        "v-btn",
+                        {
+                          staticClass: "padding d-flex",
+                          attrs: { text: "", to: "/login" }
+                        },
+                        [_vm._v("Se connecter")]
+                      )
                     ],
                     1
                   )
@@ -86511,6 +86518,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _composants_Accueil_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./composants/Accueil.vue */ "./resources/js/vue/composants/Accueil.vue");
 /* harmony import */ var _composants_auth_Login_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./composants/auth/Login.vue */ "./resources/js/vue/composants/auth/Login.vue");
+/* harmony import */ var _services_authentication_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_services/authentication.service */ "./resources/js/_services/authentication.service.js");
+
 
 
 
@@ -86528,10 +86537,11 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   }, {
     path: '/login',
     name: 'login',
-    component: Login,
-    meta: {
-      authorize: []
-    }
+    component: _composants_auth_Login_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+  }, // otherwise redirect to home
+  {
+    path: '*',
+    redirect: '/'
   }]
 });
 router.beforeEach(function (to, from, next) {
@@ -86539,7 +86549,7 @@ router.beforeEach(function (to, from, next) {
   var authorize = to.meta.authorize;
 
   if (authorize && !_.isEmpty(authorize)) {
-    var currentUser = authenticationService.currentUserValue; // console.log(authenticationService.currentUserValue);
+    var currentUser = _services_authentication_service__WEBPACK_IMPORTED_MODULE_4__["authenticationService"].currentUserValue; // console.log(authenticationService.currentUserValue);
 
     if (!currentUser) {
       // not logged in so redirect to login page with the return url
@@ -86584,8 +86594,8 @@ router.beforeEach(function (to, from, next) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/cyberun-8/Documents/projet/continentdesneufsprovinces/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/cyberun-8/Documents/projet/continentdesneufsprovinces/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/morgan/Bureau/projet/continentdesneufsprovinces/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/morgan/Bureau/projet/continentdesneufsprovinces/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

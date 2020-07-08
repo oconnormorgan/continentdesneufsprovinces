@@ -8,7 +8,7 @@
 
     <v-navigation-drawer v-model="drawer" absolute temporary right dark>
       <v-list nav dense>
-        <v-title>Le Continent des Neufs Provinces</v-title>
+        <v-card-title>Le Continent des Neufs Provinces</v-card-title>
         <v-divider class="my-5"></v-divider>
         <v-list-item-group v-model="group" active-class="orange--text text--accent-4">
           <v-list-item>
@@ -22,7 +22,7 @@
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Mon compte</v-list-item-title>
+          <v-btn class="padding d-flex" text to="/login">Se connecter</v-btn>
           </v-list-item>
         </v-list-item-group>
       </v-list>
