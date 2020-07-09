@@ -49,6 +49,16 @@
           </v-list-item>
         </v-list-item-group>
         <v-divider class="my-5"></v-divider>
+        <v-list-item-group active-class="orange--text text--accent-4">
+          <v-list-item>
+            <v-btn class="padding d-flex" text to="/dashboard" width="100%">
+              <v-list-item-icon>
+                <v-icon>mdi-view-dashboard</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Dashboard</v-list-item-title>
+            </v-btn>
+          </v-list-item>
+        </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
   </v-container>

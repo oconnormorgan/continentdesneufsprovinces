@@ -7,6 +7,8 @@ import Chapitre from './composants/texte/Chapitre.vue';
 import Histoire from './composants/texte/Histoire.vue';
 import Wiki from './composants/index/Wiki.vue';
 
+import Dashboard from './dashboard/Dashboard.vue';
+
 import Login from './composants/auth/Login.vue';
 
 import { authenticationService } from '../_services/authentication.service';
@@ -44,6 +46,12 @@ const router = new VueRouter({
             path: '/login',
             name: 'login',
             component: Login,
+        },
+        // Partie Dashboard
+        {
+            path: '/dashboard',
+            name: 'dashboard',
+            component: Dashboard,
         },
         // otherwise redirect to home
         {
