@@ -12,9 +12,6 @@ export const authenticationService = {
     login,
     logout,
     isAdmin,
-    isProducer() {
-        return role() === Role.Producteur
-    },
     currentUser: currentUserSubject.asObservable(),
     get currentUserValue() {
         return currentUserSubject.value;
