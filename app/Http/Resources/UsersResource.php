@@ -20,6 +20,7 @@ class UsersResource extends JsonResource
      */
     public function toArray($request)
     {
+
         if (isset($this->token)) {
             return [
                 'id' => $this->id,

@@ -19,5 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'AccueilController@index');
 
+Route::get('/textes', 'TextesController@index');
+
 Route::get('/{any}', 'AccueilController@index')->where('any', '.*');
 
