@@ -41,50 +41,22 @@
     <v-card>
       <v-card-title>
         Chapitre
-        <v-spacer></v-spacer>
-        <v-text-field
-          v-model="search"
-          append-icon="mdi-magnify"
-          label="Recherche"
-          single-line
-          hide-details
-        ></v-text-field>
       </v-card-title>
-      <v-data-table :headers="headers" :items="texte" :search="search"></v-data-table>
+      <v-data-table :headers="headers" :items="chapitres">
+        <template v-slot:item.titre="{ item }">
+          <v-btn text :to=" '/' + item.id + '/histoire' " class="deep-orange--text text--accent-2">{{item.titre}}</v-btn>
+        </template>
+      </v-data-table>
     </v-card>
+    
     <v-btn
       class="pa-0 my-2 blue-grey darken-2 deep-orange--text text--accent-2"
       width="75%"
       text
       to="/histoire"
     >Acceder à un chapitre</v-btn>
+
   </v-container>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      search: "",
-      headers: [
-        {
-          text: "Titre",
-          align: "start",
-          value: "titre"
-        },
-        { text: "Chapitre", value: "chapitre" },
-        { text: "Date de parution", value: "date" },
-        { text: "Commentaires", value: "commentaire" }
-      ],
-      texte: [
-        {
-          titre: "Texte 1",
-          chapitre: "XX",
-          date: "xx / xx / xxxx",
-          commentaire: "13"
-        }
-      ]
-    };
-  }
-};
-</script>
+<script src="./Chapitre.js"></script>

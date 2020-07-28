@@ -44,8 +44,8 @@ class User extends Authenticatable
         return $this->belongsTo(Role::class, 'id_role');
     }
     
-    public function texte()
+    public function hsitoire()
     {
-        return $this->hasMany(TextesModel::class, 'id_auteur');
+        return $this->hasMany(HistoireModel::class, 'id_auteur');
     }
 }

@@ -21,7 +21,10 @@
           </v-card>
         </v-col>
         <v-col cols="12" md="4">
-          <v-card class="mx-auto blue-grey lighten-5 d-flex flex-column justify-space-between" height="100%">
+          <v-card
+            class="mx-auto blue-grey lighten-5 d-flex flex-column justify-space-between"
+            height="100%"
+          >
             <v-card-text>
               <h4>Information</h4>
               <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt numquam aliquid laboriosam alias iste fugit explicabo doloremque officia ipsam accusantium enim assumenda earum inventore veritatis, nisi saepe sequi nemo unde.</div>
@@ -39,52 +42,17 @@
       </v-row>
     </v-container>
     <v-card>
-      <v-card-title>
-        Bibliothèque
-        <v-spacer></v-spacer>
-        <v-text-field
-          v-model="search"
-          append-icon="mdi-magnify"
-          label="Recherche"
-          single-line
-          hide-details
-        ></v-text-field>
+      <v-card-title>Bibliothèque
+      <v-spacer></v-spacer>
+      <v-btn icon><v-icon> mdi-pencil</v-icon></v-btn>
       </v-card-title>
-      <v-data-table :headers="headers" :items="texte" :search="search"></v-data-table>
+      <v-data-table :headers="headers" :items="texte">
+        <template v-slot:item.titre="{ item }">
+          <v-btn text :to=" '/' + item.id + '/chapitre' " class="deep-orange--text text--accent-2">{{item.titre}}</v-btn>
+        </template>
+      </v-data-table>
     </v-card>
-    <v-btn
-      class="pa-0 my-2 blue-grey darken-2 deep-orange--text text--accent-2"
-      width="75%"
-      text
-      to="/chapitre"
-    >Acceder à une histoire</v-btn>
   </v-container>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      search: "",
-      headers: [
-        {
-          text: "Titre",
-          align: "start",
-          value: "titre"
-        },
-        { text: "Auteur", value: "auteur" },
-        { text: "Date de parution", value: "date" },
-        { text: "Commentaires", value: "commentaire" }
-      ],
-      texte: [
-        {
-          titre: "Texte 1",
-          auteur: "anonyme",
-          date: "xx / xx / xxxx",
-          commentaire: "13"
-        }
-      ]
-    };
-  }
-};
-</script>
+<script src="./Bibliotheque.js"></script>

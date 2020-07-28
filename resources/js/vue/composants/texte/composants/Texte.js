@@ -1,19 +1,21 @@
+import Axios from "axios";
+
 export default {
     data: () => ({
         police: 10,
-        textes: [],
+        texte: [],
     }),
     created() {
-        this.initialisation();
+        this.getChapitre();
     },
     methods: {
-        initialisation() {
-            axios.get('/textes')
-                .then(({ data }) => {
-                    data.data.forEach(data => {
-                        this.textes.push(data);
-                    })
-                })
-        }
+        getChapitre() {
+            Axios.get('/api/' + this.$route.params.id + '/texte').then(
+              ({ data }) => {
+                  this.texte = data[0].texte
+                  console.log(data)
+              }
+            )
+          }
     }
 }

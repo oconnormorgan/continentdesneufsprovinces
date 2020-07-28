@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Resources\TextesResource;
-use App\TextesModel;
+use App\ChapitreModel;
+use App\HistoireModel;
+use App\Http\Resources\HistoireResource;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 
@@ -16,8 +17,8 @@ class TextesController extends Controller
      */
     public function index()
     {
-        $textes = TextesModel::all();
-        return TextesResource::collection(($textes));
+        $histoire = HistoireModel::all();
+        return HistoireResource::collection($histoire);
     }
 
     /**
@@ -89,5 +90,17 @@ class TextesController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function getChapitre($id)
+    {
+        $getHistoire = HistoireModel::where('id', '=', $id)->with(["Chapitre"])->get();
+        return $getHistoire;
+    }
+
+    public function getTexteChapitre($id)
+    {
+        $getChapitre = ChapitreModel::where('id', '=', $id)->get();
+        return $getChapitre;
     }
 }

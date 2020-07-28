@@ -23,5 +23,9 @@ Route::get('/users', 'DashboardController@getUsers');
 Route::get('/textes', 'TextesController@index');
 Route::post('/texte/create', 'TextesController@store');
 
+Route::get('/{id}/chapitre', 'TextesController@getChapitre')->where('id', "[0-9]+");
+
+Route::get('/{id}/texte', 'TextesController@getTexteChapitre')->where('id', "[0-9]+");
+
 Route::post('/login', 'AuthController@login');
 Route::get('/logout', 'AuthController@logout');

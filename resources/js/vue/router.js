@@ -28,12 +28,12 @@ const router = new VueRouter({
             component: Bibliotheque,
         },
         {
-            path: '/chapitre',
+            path: '/:id/chapitre',
             name: 'chapitre',
             component: Chapitre,
         },
         {
-            path: '/histoire',
+            path: '/:id/histoire',
             name: 'histoire',
             component: Histoire,
         },
