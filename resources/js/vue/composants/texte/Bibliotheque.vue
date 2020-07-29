@@ -42,13 +42,20 @@
       </v-row>
     </v-container>
     <v-card>
-      <v-card-title>Bibliothèque
-      <v-spacer></v-spacer>
-      <v-btn icon><v-icon> mdi-pencil</v-icon></v-btn>
+      <v-card-title>
+        Bibliothèque
+        <v-spacer></v-spacer>
+        <v-btn icon>
+          <CreateHistoire />
+        </v-btn>
       </v-card-title>
       <v-data-table :headers="headers" :items="texte">
         <template v-slot:item.titre="{ item }">
-          <v-btn text :to=" '/' + item.id + '/chapitre' " class="deep-orange--text text--accent-2">{{item.titre}}</v-btn>
+          <v-btn
+            text
+            :to=" '/' + item.id + '/chapitre' "
+            class="deep-orange--text text--accent-2"
+          >{{item.titre}}</v-btn>
         </template>
       </v-data-table>
     </v-card>

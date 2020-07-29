@@ -4,7 +4,7 @@
       <template v-slot:top class="d-flex justify-space-between">
         <v-toolbar flat color="white">
           <v-toolbar-title>Liste des Textes</v-toolbar-title>
-          <CreateTexte />
+          <CreateHistoire />
         </v-toolbar>
       </template>
 

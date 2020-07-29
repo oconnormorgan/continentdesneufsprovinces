@@ -11,18 +11,15 @@ export default {
     items: [
       {
         text: "Biblothéque",
-        disabled: false,
-        href: "bibliotheque"
+        disabled: true,
       },
       {
         text: "Chapitre",
-        disabled: false,
-        href: "chapitre"
+        disabled: true,
       },
       {
         text: "Texte 1",
         disabled: true,
-        href: "histoire"
       }
     ]
   }),

@@ -10,6 +10,7 @@ class ChapitreModel extends Model
     protected $fillable = [
         'numero', 'titre', 'texte', 'id_validation'
     ];
+    public $timestamps = false;
 
     public function validation()
     {

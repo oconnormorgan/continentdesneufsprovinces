@@ -27,19 +27,19 @@ class TextesSeeder extends Seeder
             des montagnes bleues qui vas se retrouver propulser dans le monde mystérieux des
             artiste martial. Il vas devenir l’héritier d’un des plus puissant artiste martial d’une
             ancienne ère.',
-            'id_auteur' => 1
+            'id_auteur' => 2
         ]);
         DB::table('histoire')->insert([
             'titre' => 'La légende d’Hénok ENCAUSTUM',
             'resumé' => 'Histoire de Enock Encaustum, enfant de la provinces du Surven, qui devra traverser de
             grand territoires à la recherche de ses origines.',
-            'id_auteur' => 1
+            'id_auteur' => 3
         ]);
         DB::table('histoire')->insert([
             'titre' => 'Carnet intimes de la princesse des elfes',
             'resumé' => 'Ce carnet intime raconte les mémoires d’une princesse elfes qui devra au périls du
             continent entier découvrire une des grandes énigmes de ce monde.',
-            'id_auteur' => 1
+            'id_auteur' => 4
         ]);
         DB::table('histoire')->insert([
             'titre' => 'Histoire de Oua’shap, de jeune enfant de la tribu des sable au sommet de la

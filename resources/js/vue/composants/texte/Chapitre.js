@@ -1,6 +1,10 @@
 import Axios from "axios";
+import CreateChapitre from "../../dashboard/composants/createChapitre.vue"
 
 export default {
+  components: {
+    CreateChapitre
+  },
   data() {
     return {
       search: "",

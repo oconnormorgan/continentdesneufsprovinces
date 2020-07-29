@@ -10,6 +10,7 @@ class HistoireModel extends Model
     protected $fillable = [
         'titre', 'resumé', 'id_auteur',
     ];
+    public $timestamps = false;
 
     public function auteur()
     {

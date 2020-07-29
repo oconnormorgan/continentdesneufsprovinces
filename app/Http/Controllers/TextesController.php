@@ -4,9 +4,12 @@ namespace App\Http\Controllers;
 
 use App\ChapitreModel;
 use App\HistoireModel;
+use App\Http\Resources\ChapitreResource;
 use App\Http\Resources\HistoireResource;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Validator;
+use PhpParser\ErrorHandler\Collecting;
 
 class TextesController extends Controller
 {
@@ -39,12 +42,24 @@ class TextesController extends Controller
      */
     public function store(Request $request)
     {
-        $validatedData = $request->validate([
-            'titre' => 'required|max:255',
-            'texte' => 'required',
-        ]);
+        $validatedData = Validator::make(
+            $request->all(),
+            [
+                'titre' => 'required|max:255',
+                'resumé' => 'required',
+            ]
+        )->validate();
 
-        Log::debug($validatedData);
+        $addHistoire = new HistoireModel;
+
+        $addHistoire->titre = $validatedData['titre'];
+        $addHistoire->resumé = $validatedData['resumé'];
+
+        $addHistoire->save();
+
+        Log::debug($addHistoire);
+
+        return new HistoireResource($addHistoire);
     }
 
     /**
@@ -102,5 +117,32 @@ class TextesController extends Controller
     {
         $getChapitre = ChapitreModel::where('id', '=', $id)->get();
         return $getChapitre;
+    }
+
+    public function createChapitre(Request $request)
+    {
+        $validatedData = Validator::make(
+            $request->all(),
+            [
+                'numero' => 'required|int|max:255',
+                'titre' => 'required|max:255',
+                'texte' => 'required',
+            ]
+        )->validate();
+
+        Log::debug($validatedData);
+
+        $addChapitre = new ChapitreModel;
+
+        $addChapitre->numero = $validatedData['numero'];
+        $addChapitre->titre = $validatedData['titre'];
+        $addChapitre->texte = $validatedData['texte'];
+        $addChapitre->id_validation = 2;
+
+        $addChapitre->save();
+
+        Log::debug($addChapitre);
+
+        return new ChapitreResource($addChapitre);
     }
 }

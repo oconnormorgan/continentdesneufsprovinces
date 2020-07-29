@@ -1,8 +1,8 @@
-import CreateTexte from './CreateTexte.vue';
+import CreateHistoire from './CreateHistoire.vue';
 
 export default {
     components : {
-        CreateTexte
+        CreateHistoire
     },
     data() {
         return {
