@@ -41,11 +41,25 @@
         </v-col>
       </v-row>
     </v-container>
+    <v-card class="mb-2" v-if="validMesTextes">
+      <v-card-title>
+        Bibliothèque personnelle
+      </v-card-title>
+      <v-data-table :headers="headers" :items="mesTextes">
+        <template v-slot:item.titre="{ item }">
+          <v-btn
+            text
+            :to=" '/' + item.id + '/chapitre' "
+            class="deep-orange--text text--accent-2"
+          >{{item.titre}}</v-btn>
+        </template>
+      </v-data-table>
+    </v-card>
     <v-card>
       <v-card-title>
         Bibliothèque
         <v-spacer></v-spacer>
-        <v-btn icon>
+        <v-btn icon v-if="utilisateur">
           <CreateHistoire />
         </v-btn>
       </v-card-title>

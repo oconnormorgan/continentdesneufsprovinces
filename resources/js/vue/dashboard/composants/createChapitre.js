@@ -25,20 +25,18 @@ export default {
         content: '',
         titre: '',
         numero: '',
+        dialog: false,
     }),
     methods: {
         save() {
-            console.log("toto");
             axios.post('/api/texte/chapitre', {
                 numero: this.numero,
                 titre: this.titre,
                 texte: this.content,
             })
-                .then(({
-                    data,
-                }) => {
-                    console.log(data)
-                })
         },
+        close() {
+            this.dialog = false
+        }
     }
 }

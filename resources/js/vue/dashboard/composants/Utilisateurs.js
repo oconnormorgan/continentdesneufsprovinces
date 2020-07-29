@@ -5,7 +5,7 @@ export default {
                     text: 'Utilisateurs',
                     align: 'start',
                     sortable: false,
-                    value: 'nom'
+                    value: 'name'
                 },
                 {
                     text: 'Email',
@@ -13,7 +13,7 @@ export default {
                 },
                 {
                     text: 'Role',
-                    value: 'role'
+                    value: 'id_role.role'
                 },
                 {
                     text: 'Actions',

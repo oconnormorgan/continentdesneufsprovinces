@@ -22,12 +22,10 @@ export default {
         if (authenticationService.currentUserValue) {
             return this.$router.push('/');
         }
-
         this.returnUrl = this.$route.query.returnUrl || "/";
     },
     methods: {
         connection() {
-
             this.loading = true;
             authenticationService.login(this.user).then(
                 user => {

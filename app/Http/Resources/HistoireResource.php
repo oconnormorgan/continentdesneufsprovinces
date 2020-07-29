@@ -20,6 +20,7 @@ class HistoireResource extends JsonResource
             'titre'=>$this->titre,
             'resumé'=>$this->resumé,
             'id_auteur'=>$auteur,
-        ];;
+            'chapitre'=>$this->chapitre
+        ];
     }
 }

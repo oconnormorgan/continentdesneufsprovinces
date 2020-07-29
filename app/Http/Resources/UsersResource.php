@@ -22,11 +22,13 @@ class UsersResource extends JsonResource
     {
 
         if (isset($this->token)) {
+            $role =  new RoleResource($this->role);
             return [
                 'id' => $this->id,
                 'name' => $this->name,
                 'email' => $this->email,
                 'token' => $this->token,
+                'id_role' => $role
             ];
         } else {
             return [

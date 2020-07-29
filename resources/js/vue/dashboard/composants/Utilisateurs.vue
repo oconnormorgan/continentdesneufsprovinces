@@ -9,7 +9,6 @@
 
       <template v-slot:item.role="{ item }">{{ item.role.role }}</template>
       <template v-slot:item.actions="{ item }">
-        <messageUsers />
         <v-icon small @click="deleteItem(item)">mdi-delete</v-icon>
       </template>
     </v-data-table>

@@ -130,8 +130,6 @@ class TextesController extends Controller
             ]
         )->validate();
 
-        Log::debug($validatedData);
-
         $addChapitre = new ChapitreModel;
 
         $addChapitre->numero = $validatedData['numero'];
@@ -140,8 +138,6 @@ class TextesController extends Controller
         $addChapitre->id_validation = 2;
 
         $addChapitre->save();
-
-        Log::debug($addChapitre);
 
         return new ChapitreResource($addChapitre);
     }

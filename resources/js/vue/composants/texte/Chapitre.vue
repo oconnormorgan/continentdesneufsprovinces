@@ -4,8 +4,8 @@
       <v-row>
         <v-col cols="12" md="8" class="d-flex align-center flex-column">
           <div>
-            <v-card-title width="100%" max-height="300px" class="text-sm-h5 text-md-h3">Titre</v-card-title>
-            <v-card-text>Resumer : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, itaque, exercitationem placeat eius sit, molestiae neque illo ex commodi earum aut vero provident eos consequuntur doloremque sunt unde! Corporis, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in maxime totam sapiente minima nisi provident nemo perferendis ducimus nam eum repudiandae voluptas hic explicabo consectetur tempora atque, quod soluta.</v-card-text>
+            <v-card-title width="100%" max-height="300px" class="text-sm-h5 text-md-h4">{{histoireTitre}}</v-card-title>
+            <v-card-text>{{histoireResumé}}</v-card-text>
           </div>
           <v-card width="100%">
             <v-card-title>Genre</v-card-title>
@@ -41,7 +41,7 @@
       <v-card-title>
         Chapitre
         <v-spacer></v-spacer>
-        <v-btn icon>
+        <v-btn icon  v-if="auteur">
           <CreateChapitre />
         </v-btn>
       </v-card-title>

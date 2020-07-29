@@ -2,20 +2,19 @@ export default {
     data: () => ({
         // starting editor's content
         content: '',
-        titre: ''
+        titre: '',
+        dialog: false,
+        utilisateur: false
     }),
     methods: {
         save() {
-            console.log("toto");
             axios.post('/api/texte/create', {
                     titre: this.titre,
                     resumé: this.content,
                 })
-                .then(({
-                    data,
-                }) => {
-                    console.log(data)
-                })
         },
+        close() {
+            this.dialog = false
+        }
     }
 }
