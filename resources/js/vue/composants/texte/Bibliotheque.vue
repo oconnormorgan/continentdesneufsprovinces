@@ -42,16 +42,18 @@
       </v-row>
     </v-container>
     <v-card class="mb-2" v-if="validMesTextes">
-      <v-card-title>
-        Bibliothèque personnelle
-      </v-card-title>
-      <v-data-table :headers="headers" :items="mesTextes">
+      <v-card-title>Bibliothèque personnelle</v-card-title>
+      <v-data-table :headers="headersEdit" :items="mesTextes">
         <template v-slot:item.titre="{ item }">
           <v-btn
             text
             :to=" '/' + item.id + '/chapitre' "
             class="deep-orange--text text--accent-2"
           >{{item.titre}}</v-btn>
+        </template>
+        <template v-slot:item.actions="{ item }">
+          <EditHistoire :texte="item" />
+          <v-icon @click="deleteItem(item)">mdi-delete</v-icon>
         </template>
       </v-data-table>
     </v-card>

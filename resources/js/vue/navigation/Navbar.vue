@@ -61,7 +61,7 @@
           </v-list-item>
         </v-list-item-group>
         <v-divider class="my-5"></v-divider>
-        <v-list-item-group active-class="orange--text text--accent-4">
+        <v-list-item-group active-class="orange--text text--accent-4" v-if="isAdmin">
           <v-list-item>
             <v-btn class="padding d-flex" text to="/dashboard" width="100%">
               <v-list-item-icon>
@@ -83,7 +83,7 @@ import router from "../router";
 export default {
   data: () => ({
     drawer: false,
-    currentUser: null
+    currentUser: null,
   }),
   created() {
     authenticationService.currentUser.subscribe(x => (this.currentUser = x));
@@ -91,7 +91,12 @@ export default {
   computed: {
     isChecked() {
       return this.currentUser;
-    }
+    },
+    isAdmin() {
+      if (!_.isEmpty(this.currentUser)) {
+        return this.currentUser.id_role.role == "Admin";
+      }
+    },
   },
   methods: {
     logout() {
