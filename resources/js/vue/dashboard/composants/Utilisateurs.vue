@@ -4,6 +4,7 @@
       <template v-slot:top>
         <v-toolbar flat color="white">
           <v-toolbar-title>Liste des Utilisateurs</v-toolbar-title>
+          <CreateUtilisateur />
         </v-toolbar>
       </template>
 

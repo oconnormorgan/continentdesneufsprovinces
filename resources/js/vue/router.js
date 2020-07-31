@@ -10,6 +10,7 @@ import Wiki from './composants/index/Wiki.vue';
 import Dashboard from './dashboard/Dashboard.vue';
 
 import Login from './composants/auth/Login.vue';
+import Signin from './composants/auth/SignIn.vue';
 
 import { authenticationService } from '../_services/authentication.service';
 
@@ -46,6 +47,11 @@ const router = new VueRouter({
             path: '/login',
             name: 'login',
             component: Login,
+        },
+        {
+            path: '/signin',
+            name: 'signin',
+            component: Signin,
         },
         // Partie Dashboard
         {

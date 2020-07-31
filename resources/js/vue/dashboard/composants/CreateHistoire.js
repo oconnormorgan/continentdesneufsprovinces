@@ -4,14 +4,15 @@ export default {
         content: '',
         titre: '',
         dialog: false,
-        utilisateur: false
+        utilisateur: false,
+        props: ['histoire']
     }),
     methods: {
         save() {
             axios.post('/api/texte/create', {
                     titre: this.titre,
                     resumé: this.content,
-                })
+            })
         },
         close() {
             this.dialog = false

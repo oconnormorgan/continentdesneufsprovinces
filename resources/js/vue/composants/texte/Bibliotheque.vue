@@ -52,7 +52,7 @@
           >{{item.titre}}</v-btn>
         </template>
         <template v-slot:item.actions="{ item }">
-          <EditHistoire :texte="item" />
+          <EditHistoire :v-bind="histoire" />
           <v-icon @click="deleteItem(item)">mdi-delete</v-icon>
         </template>
       </v-data-table>

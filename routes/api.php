@@ -29,4 +29,5 @@ Route::get('/{id}/chapitre', 'TextesController@getChapitre')->where('id', "[0-9]
 Route::get('/{id}/texte', 'TextesController@getTexteChapitre')->where('id', "[0-9]+");
 
 Route::post('/login', 'AuthController@login');
+Route::post('/register', 'AuthController@register');
 Route::get('/logout', 'AuthController@logout');

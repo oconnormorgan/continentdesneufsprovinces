@@ -1,4 +1,9 @@
+import CreateUtilisateur from './CreateUtilisateur.vue';
+
 export default {
+    components : {
+        CreateUtilisateur
+    },
     data() {
         return {
             headers: [{
@@ -21,6 +26,7 @@ export default {
                 },
             ],
             datas: [],
+            dialog: false
         }
     },
     created() {
