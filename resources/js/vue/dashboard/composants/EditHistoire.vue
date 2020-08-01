@@ -1,7 +1,7 @@
 <template>
   <v-dialog v-model="dialog" fullscreen>
     <template v-slot:activator="{ on, attrs }">
-      <v-btn icon v-bind="attrs" v-on="on">
+      <v-btn icon v-bind="attrs" v-on="on" @click="openDialog(item)">
         <v-icon icon class="pa-2">mdi-pencil</v-icon>
       </v-btn>
     </template>

@@ -21,8 +21,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('/users', 'DashboardController@getUsers');
 
 Route::get('/textes', 'TextesController@index');
+
 Route::post('/texte/create', 'TextesController@store');
 Route::post('/texte/chapitre', 'TextesController@createChapitre');
+Route::post('/texte/edit', 'TextesController@edit');
+Route::post('/texte/chapitre/edit', 'TextesController@editChapitre');
 
 Route::get('/{id}/chapitre', 'TextesController@getChapitre')->where('id', "[0-9]+");
 

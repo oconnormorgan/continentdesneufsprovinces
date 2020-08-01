@@ -1,7 +1,7 @@
 import Axios from "axios";
-import { forEach } from "lodash";
 import CreateHistoire from '../../dashboard/composants/CreateHistoire.vue';
 import EditHistoire from '../../dashboard/composants/EditHistoire.vue';
+
 import { authenticationService } from "../../../_services/authentication.service"
 
 export default {
@@ -18,9 +18,8 @@ export default {
           align: "start",
           value: "titre",
         },
-        { text: "Resumé", value: "resumé" },
         { text: "Auteur", value: "id_auteur.name" },
-        { text: "Action", value: "actions"}
+        { text: "Action", value: "actions" }
       ],
       headers: [
         {
@@ -28,12 +27,11 @@ export default {
           align: "start",
           value: "titre",
         },
-        { text: "Resumé", value: "resumé" },
         { text: "Auteur", value: "id_auteur.name" },
       ],
       texte: [],
       mesTextes: [],
-      validMesTextes: false
+      validMesTextes: false,
     };
   },
   created() {
@@ -46,7 +44,7 @@ export default {
       Axios.get('/api/textes').then(
         ({ data }) => {
           data.data.forEach(_data => {
-            if (_data.chapitre.length>0) {
+            if (_data.chapitre.length > 0) {
               this.texte.push(_data)
             }
 

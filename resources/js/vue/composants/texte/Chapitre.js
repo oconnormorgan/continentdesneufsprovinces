@@ -1,14 +1,26 @@
 import Axios from "axios";
 import CreateChapitre from "../../dashboard/composants/createChapitre.vue"
+import EditChapitre from "../../dashboard/composants/EditChapitre.vue"
+
 import { authenticationService } from "../../../_services/authentication.service"
 
 export default {
   components: {
-    CreateChapitre
+    CreateChapitre,
+    EditChapitre
   },
   data() {
     return {
       search: "",
+      header: [
+        {
+          text: "Titre",
+          align: "start",
+          value: "titre"
+        },
+        { text: "Chapitre", value: "numero" },
+        { text: "Action", value: "actions" },
+      ],
       headers: [
         {
           text: "Titre",

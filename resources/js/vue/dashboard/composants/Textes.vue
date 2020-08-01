@@ -1,18 +1,47 @@
 <template>
   <v-container fluid>
-    <v-data-table :headers="headers" :items="datas" sort-by="data" class="elevation-1">
+    <v-data-table
+      :headers="headers"
+      :items="datas"
+      sort-by="data"
+      class="elevation-1"
+      :single-expand="singleExpand"
+      :expanded.sync="expanded"
+      show-expand
+    >
       <template v-slot:top class="d-flex justify-space-between">
         <v-toolbar flat color="white">
-          <v-toolbar-title>Liste des Textes</v-toolbar-title>
-          <CreateHistoire />
+          <v-toolbar-title>Liste des Histoires</v-toolbar-title>
         </v-toolbar>
       </template>
 
       <template v-slot:item.auteur="{ item }">{{ item.id_auteur.name}}</template>
       <template v-slot:item.actions="{ item }">
-        <v-icon icon @click="editItem(item)">mdi-pencil</v-icon>
+        <EditHistoire :item="item" />
         <v-icon icon @click="deleteItem(item)">mdi-delete</v-icon>
       </template>
+
+      <template v-slot:expanded-item="{headers, item}" class="d-flex justify-center">
+        <td :colspan="headers.length">
+          <v-data-table
+            :headers="chapitre"
+            :items="item.chapitre"
+            sort-by="data"
+            class="elevation-5 ma-5"
+          >
+            <template v-slot:top class="d-flex justify-space-between">
+              <v-toolbar flat color="white">
+                <v-toolbar-title>Liste des Chapitres</v-toolbar-title>
+              </v-toolbar>
+            </template>
+            <template v-slot:item.actions="{ item }">
+              <EditChapitre :chapitre="chapitre" :item="item" />
+              <v-icon icon @click="deleteItem(item)">mdi-delete</v-icon>
+            </template>
+          </v-data-table>
+        </td>
+      </template>
+
     </v-data-table>
   </v-container>
 </template>
@@ -21,8 +50,8 @@
 
 <style lang="css">
 .v-toolbar__content {
-    width : 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 </style>

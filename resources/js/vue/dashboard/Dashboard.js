@@ -11,7 +11,7 @@ export default {
         model: null,
         items: [
             'Utilisateurs',
-            'Textes',
+            'Histoires',
         ],
       };
     }

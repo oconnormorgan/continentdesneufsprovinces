@@ -33,10 +33,11 @@ export default {
                 numero: this.numero,
                 titre: this.titre,
                 texte: this.content,
+                id_histoire: this.$route.params.id
             })
         },
         close() {
             this.dialog = false
-        }
+        },
     }
 }
