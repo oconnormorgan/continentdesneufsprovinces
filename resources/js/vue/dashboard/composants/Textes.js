@@ -38,6 +38,10 @@ export default {
                 value: 'numero'
             },
             {
+                text: 'Validation',
+                value: 'id_validation'
+            },
+            {
                 text: 'Action',
                 value: 'actions'
             }
@@ -54,8 +58,9 @@ export default {
                 .then(({
                     data
                 }) =>
-                    data.data.forEach(data => {
-                        this.datas.push(data);
+                    data.data.forEach(_data => {
+                        this.datas.push(_data);
+                        console.log(_data);
                     })
                 )
                 .catch();

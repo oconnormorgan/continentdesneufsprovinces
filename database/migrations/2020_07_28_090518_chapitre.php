@@ -18,6 +18,7 @@ class Chapitre extends Migration
             $table->integer('numero');
             $table->string('titre');
             $table->longText('texte');
+            $table->softDeletes();
         });
     }
 

@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class HistoireModel extends Model
 {
@@ -11,6 +12,7 @@ class HistoireModel extends Model
         'titre', 'resumé', 'id_auteur',
     ];
     public $timestamps = false;
+    use SoftDeletes;
 
     public function auteur()
     {

@@ -90,16 +90,17 @@ class TextesController extends Controller
             [
                 'titre' => 'required|max:255',
                 'resumé' => 'required',
-                'id_histoire' => 'required'            ]
+                'id_histoire' => 'required'
+            ]
         )->validate();
 
         $histoire = HistoireModel::findOrFail($validatedData['id_histoire']);
 
-        if ($histoire['titre'] != $validatedData['titre']  ) {
+        if ($histoire['titre'] != $validatedData['titre']) {
             $histoire->titre = $validatedData['titre'];
         }
 
-        if ($histoire['resumé'] != $validatedData['resumé']  ) {
+        if ($histoire['resumé'] != $validatedData['resumé']) {
             $histoire->resumé = $validatedData['resumé'];
         }
 
@@ -171,22 +172,25 @@ class TextesController extends Controller
         return new ChapitreResource($addChapitre);
     }
 
-    public function editChapitre(Request $request) {
+    public function editChapitre(Request $request)
+    {
         $validatedData = Validator::make(
             $request->all(),
             [
                 'numero' => 'required|int|max:255',
                 'titre' => 'required|max:255',
                 'texte' => 'required',
-                'id_chapitre' => ''
+                'id_chapitre' => '',
+                'id_validation' => ''
             ]
         )->validate();
 
         $chapitre = ChapitreModel::findOrFail($validatedData['id_chapitre']);
-        
+
         $chapitre->numero = $validatedData['numero'];
         $chapitre->titre = $validatedData['titre'];
         $chapitre->texte = $validatedData['texte'];
+        $chapitre->id_validation = $validatedData['id_validation'];
 
         $chapitre->save();
 

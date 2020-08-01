@@ -19,6 +19,7 @@ class Histoire extends Migration
             $table->longText('resumé');
             $table->unsignedBigInteger('id_auteur')->nullable();
             $table->foreign('id_auteur')->references('id')->on('users');
+            $table->softDeletes();
         });
     }
 

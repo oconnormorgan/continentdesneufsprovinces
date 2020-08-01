@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class ChapitreModel extends Model
 {
@@ -11,6 +12,7 @@ class ChapitreModel extends Model
         'numero', 'titre', 'texte', 'id_validation'
     ];
     public $timestamps = false;
+    use SoftDeletes;
 
     public function validation()
     {
