@@ -60,7 +60,7 @@
           </template>
           <template v-slot:item.actions="{ item }">
             <EditChapitre :chapitre="chapitres" :item="item" />
-            <v-icon @click="deleteItem(item)">mdi-delete</v-icon>
+            <DeleteChapitre :chapitre="chapitres" :item="item" />
           </template>
         </v-data-table>
       </div>

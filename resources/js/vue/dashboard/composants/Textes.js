@@ -1,11 +1,14 @@
 import EditHistoire from './EditHistoire.vue';
 import EditChapitre from './EditChapitre.vue';
-
+import DeleteHistoire from './DeleteHistoire.vue';
+import DeleteChapitre from './DeleteChapitre.vue';
 
 export default {
     components: {
         EditHistoire,
-        EditChapitre
+        EditChapitre,
+        DeleteHistoire,
+        DeleteChapitre
     },
     data() {
         return {
@@ -27,24 +30,25 @@ export default {
             },
             { text: 'Chapitre', value: 'data-table-expand' },
             ],
-            chapitre: [{
-                text: 'Titre',
-                align: 'start',
-                sortable: false,
-                value: 'titre'
-            },
-            {
-                text: 'Chapitre',
-                value: 'numero'
-            },
-            {
-                text: 'Validation',
-                value: 'id_validation'
-            },
-            {
-                text: 'Action',
-                value: 'actions'
-            }
+            chapitre: [
+                {
+                    text: 'Titre',
+                    align: 'start',
+                    sortable: false,
+                    value: 'titre'
+                },
+                {
+                    text: 'Chapitre',
+                    value: 'numero'
+                },
+                {
+                    text: 'Validation',
+                    value: 'id_validation'
+                },
+                {
+                    text: 'Action',
+                    value: 'actions'
+                }
             ],
             datas: [],
         }
@@ -60,7 +64,6 @@ export default {
                 }) =>
                     data.data.forEach(_data => {
                         this.datas.push(_data);
-                        console.log(_data);
                     })
                 )
                 .catch();

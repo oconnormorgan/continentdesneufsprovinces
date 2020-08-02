@@ -52,7 +52,7 @@
             </v-btn>
           </v-list-item>
           <v-list-item>
-            <v-btn class="padding d-flex" text to="/wiki" width="100%">
+            <v-btn class="padding d-flex" text to="/wiki" width="100%" disabled>
               <v-list-item-icon>
                 <v-icon>mdi-wikipedia</v-icon>
               </v-list-item-icon>

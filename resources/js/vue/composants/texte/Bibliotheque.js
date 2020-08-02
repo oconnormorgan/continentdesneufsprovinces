@@ -1,13 +1,16 @@
 import Axios from "axios";
 import CreateHistoire from '../../dashboard/composants/CreateHistoire.vue';
 import EditHistoire from '../../dashboard/composants/EditHistoire.vue';
+import DeleteHistoire from '../../dashboard/composants/DeleteHistoire.vue';
+
 
 import { authenticationService } from "../../../_services/authentication.service"
 
 export default {
   components: {
     CreateHistoire,
-    EditHistoire
+    EditHistoire,
+    DeleteHistoire
   },
   data() {
     return {
@@ -65,5 +68,8 @@ export default {
         this.utilisateur = true
       }
     },
+    deleteItem(item) {
+      console.log(item)
+    }
   }
 }

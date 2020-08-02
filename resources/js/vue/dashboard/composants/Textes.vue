@@ -17,8 +17,8 @@
 
       <template v-slot:item.auteur="{ item }">{{ item.id_auteur.name}}</template>
       <template v-slot:item.actions="{ item }">
-        <EditHistoire :item="item" />
-        <v-icon icon @click="deleteItem(item)">mdi-delete</v-icon>
+        <EditHistoire :stories="datas" :item="item" />
+        <DeleteHistoire :item="item" />
       </template>
 
       <template v-slot:expanded-item="{headers, item}" class="d-flex justify-center">
@@ -35,13 +35,12 @@
               </v-toolbar>
             </template>
             <template v-slot:item.actions="{ item }">
-              <EditChapitre :chapitre="chapitre" :item="item" />
-              <v-icon icon @click="deleteItem(item)">mdi-delete</v-icon>
+              <EditChapitre :chapitre="chapitre" :chapter="item.chapitre" :item="item" />
+              <DeleteChapitre :chapitre="chapitre" :item="item" />
             </template>
           </v-data-table>
         </td>
       </template>
-
     </v-data-table>
   </v-container>
 </template>

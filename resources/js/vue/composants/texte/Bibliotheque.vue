@@ -9,7 +9,11 @@
               max-height="300px"
               class="text-sm-h5 text-md-h3"
             >La grande bibliothèque</v-card-title>
-            <v-card-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, itaque, exercitationem placeat eius sit, molestiae neque illo ex commodi earum aut vero provident eos consequuntur doloremque sunt unde! Corporis, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in maxime totam sapiente minima nisi provident nemo perferendis ducimus nam eum repudiandae voluptas hic explicabo consectetur tempora atque, quod soluta.</v-card-text>
+            <v-card-text>
+              <p>Il y a longtemps le monde fût détruit.</p>
+              <p>Il y a longtemps, très longtemps, le monde était dominé par les Magus, des êtres disposant d'une énergie quasi infinie, d'une puissance incommensurable. Des êtres humains qui s'entraînaient jusqu'à la limite du corps humain et l'ont même dépassé pour devenir des êtres quasi-divin. Ils ont exploré le monde entier, le soumettant à leurs volontés. Mais un jour tout cela disparut... Comment et Pourquoi? Cela reste un mystère même 90 000 ans plus tard. Les anciennes connaissent furent perdue, oublié.</p>
+              <p>Le continent, qui avait sombré dans le chaos fût recouvert par le sang, des guerres faisaient rage, des villes furent détruit par la violence et les flammes. Il ne reste que peu de trace écrite ou oral de cette époque, mais il reste une légende, celle du premier Haut-Seigneur, L'Overlord Primordial, Primus OCTAVIA. Nul ne sait d'où il venait, ni qui il était, mais en quelques années le continent entier tomba dans le creux de sa main. Il repensa le système des provinces, mis au point une hiérarchie, décida de loi, etc. Grâce à lui, le Continent des Neufs Province devient un endroit paisible. Pendant une bonne période le Premier Overlord dirigea le continent, mais il disparut un jour sans lancer de trace. La datation est approximative, mais on pense qu'il était Overlord il y a environ 80 000 ans. Les peuples du continent vécurent en paix en se remémorant les souvenirs de l'Overlord, mais rien n'est éternelle.</p>
+            </v-card-text>
           </div>
           <!-- <v-card width="100%">
             <v-card-title>Dernières parution</v-card-title>
@@ -18,7 +22,7 @@
               <v-btn text small class="ma-0 pa-1">Titre (XX / XX)</v-btn>,
               <v-btn text small class="ma-0 pa-1">Titre (XX / XX)</v-btn>
             </v-card-text>
-          </v-card> -->
+          </v-card>-->
         </v-col>
         <!-- <v-col cols="12" md="4">
           <v-card
@@ -38,7 +42,7 @@
               >s'abonner</v-btn>
             </v-card-actions>
           </v-card>
-        </v-col> -->
+        </v-col>-->
       </v-row>
     </v-container>
     <v-card class="mb-2" v-if="validMesTextes" card="text-truncate">
@@ -52,8 +56,8 @@
           >{{item.titre}}</v-btn>
         </template>
         <template v-slot:item.actions="{ item }">
-          <EditHistoire :histoire="mesTextes" :item=item />
-          <v-icon @click="deleteItem(item)">mdi-delete</v-icon>
+          <EditHistoire :histoire="mesTextes" :item="item" />
+          <DeleteHistoire :histoire="mesTextes" :item="item" />
         </template>
       </v-data-table>
     </v-card>

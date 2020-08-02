@@ -33,7 +33,7 @@
               </div>
             </v-card-text>
             <v-card-actions class="d-flex justify-end">
-              <v-btn text color="deep-orange accent-2">En savoir plus</v-btn>
+              <v-btn text color="deep-orange accent-2" disabled>En savoir plus</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>

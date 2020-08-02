@@ -106,7 +106,7 @@ class TextesController extends Controller
 
         $histoire->save();
 
-        return $histoire;
+        return new HistoireResource($histoire);
     }
 
     /**
@@ -127,9 +127,10 @@ class TextesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function delete($id)
     {
-        //
+        $statusDeleteHistoire = HistoireModel::destroy($id) ? 'ok' : 'nok';
+        return $statusDeleteHistoire;
     }
 
     public function getChapitre($id)
@@ -194,9 +195,12 @@ class TextesController extends Controller
 
         $chapitre->save();
 
-        Log::debug($validatedData);
-        Log::debug($chapitre);
-
         return new ChapitreResource($chapitre);
+    }
+
+    public function deleteChapitre($id)
+    {
+        $statusDeleteChapitre = ChapitreModel::destroy($id) ? 'ok' : 'nok';
+        return $statusDeleteChapitre;
     }
 }

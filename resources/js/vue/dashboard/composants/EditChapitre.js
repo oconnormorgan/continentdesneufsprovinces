@@ -2,7 +2,7 @@ import { TiptapVuetify, Heading, Bold, Italic, Strike, Underline, Code, Paragrap
 import { authenticationService } from "../../../_services/authentication.service"
 
 export default {
-    props: ["chapitre", "item"],
+    props: ["chapitre", "item", "chapter"],
     components: { TiptapVuetify },
     data: () => ({
         extensions: [
@@ -47,9 +47,13 @@ export default {
                 texte: this.content,
                 id_chapitre: this.id_chapitre,
                 id_validation: this.id_validation
-            }).then(({data}) => {
-                console.log(data)
+            }).then(response => {
+                console.log(response)
+                const index = this.chapter.indexOf(this.item);
+                console.log(index)
+                this.chapter.splice(index, 1, response.data.data)
             })
+            this.close();
         },
         close() {
             this.dialog = false

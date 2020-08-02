@@ -27,6 +27,9 @@ Route::post('/texte/chapitre', 'TextesController@createChapitre');
 Route::post('/texte/edit', 'TextesController@edit');
 Route::post('/texte/chapitre/edit', 'TextesController@editChapitre');
 
+Route::delete('/texte/{id}', 'TextesController@delete')->where('id', "[0-9]+");
+Route::delete('/texte/chapitre/{id}', 'TextesController@deleteChapitre')->where('id', "[0-9]+");
+
 Route::get('/{id}/chapitre', 'TextesController@getChapitre')->where('id', "[0-9]+");
 
 Route::get('/{id}/texte', 'TextesController@getTexteChapitre')->where('id', "[0-9]+");
