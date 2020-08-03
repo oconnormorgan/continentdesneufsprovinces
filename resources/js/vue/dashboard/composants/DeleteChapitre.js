@@ -9,6 +9,7 @@ export default {
     methods: {
         deleteItem(item) {
             axios.delete('/api/texte/chapitre/' + item.id)
+            this.close();
         },
         close() {
             this.dialog = false

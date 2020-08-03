@@ -1,5 +1,5 @@
 import Texte from "./composants/Texte.vue"
-import Axios from "axios";
+import EventBus from "../../EventBus.js"
 
 export default {
   components : {
@@ -7,7 +7,7 @@ export default {
   },
   data: () => ({
     dialog: false,
-    police: 10,
+    police: 12,
     items: [
       {
         text: "Biblothéque",
@@ -26,9 +26,11 @@ export default {
   methods: {
     increase() {
       this.police += 2;
+      EventBus.$emit('upPolice', this.police);
     },
     decrease() {
       this.police -= 2;
+      EventBus.$emit('downPolice', this.police);
     },
   },
 };

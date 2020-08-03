@@ -51,12 +51,13 @@
         <template v-slot:item.titre="{ item }">
           <v-btn
             text
+            x-small
             :to=" '/' + item.id + '/chapitre' "
-            class="deep-orange--text text--accent-2"
+            class="deep-orange--text text--accent-2 text"
           >{{item.titre}}</v-btn>
         </template>
         <template v-slot:item.actions="{ item }">
-          <EditHistoire :histoire="mesTextes" :item="item" />
+          <EditHistoire :stories="mesTextes" :item="item" />
           <DeleteHistoire :histoire="mesTextes" :item="item" />
         </template>
       </v-data-table>
@@ -73,8 +74,9 @@
         <template v-slot:item.titre="{ item }">
           <v-btn
             text
+            x-small
             :to=" '/' + item.id + '/chapitre' "
-            class="deep-orange--text text--accent-2"
+            class="deep-orange--text text--accent-2 text"
           >{{item.titre}}</v-btn>
         </template>
       </v-data-table>
@@ -83,3 +85,18 @@
 </template>
 
 <script src="./Bibliotheque.js"></script>
+<style>
+.text {
+  font-size: 12px;
+  text-overflow: ellipsis;
+  text-overflow: fade(10px);
+}
+.tr {
+  width: 100vw;
+}
+.v-data-table {
+  font-size: 12px;
+  text-overflow: ellipsis;
+  text-overflow: fade(10px);
+}
+</style>

@@ -35,7 +35,7 @@
               </v-toolbar>
             </template>
             <template v-slot:item.actions="{ item }">
-              <EditChapitre :chapitre="chapitre" :chapter="item.chapitre" :item="item" />
+              <EditChapitre :chapter="chapitre" :item="item" />
               <DeleteChapitre :chapitre="chapitre" :item="item" />
             </template>
           </v-data-table>

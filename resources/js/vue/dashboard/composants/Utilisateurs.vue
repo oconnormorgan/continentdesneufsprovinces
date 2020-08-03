@@ -10,7 +10,7 @@
 
       <template v-slot:item.role="{ item }">{{ item.role.role }}</template>
       <template v-slot:item.actions="{ item }">
-        <v-icon small @click="deleteItem(item)">mdi-delete</v-icon>
+        <DeleteUtilisateur :utilisateur="datas" :item="item" />
       </template>
     </v-data-table>
   </v-container>

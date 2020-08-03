@@ -1,4 +1,3 @@
-import EventBus from '../../EventBus.js';
 export default {
     props: ["histoire", "item", "stories"],
     data: () => ({

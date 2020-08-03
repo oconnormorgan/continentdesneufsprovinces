@@ -37,3 +37,4 @@ Route::get('/{id}/texte', 'TextesController@getTexteChapitre')->where('id', "[0-
 Route::post('/login', 'AuthController@login');
 Route::post('/register', 'AuthController@register');
 Route::get('/logout', 'AuthController@logout');
+Route::delete('/user/{id}', 'AuthController@delete')->where('id', "[0-9]+");

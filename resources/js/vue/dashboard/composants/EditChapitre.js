@@ -2,7 +2,7 @@ import { TiptapVuetify, Heading, Bold, Italic, Strike, Underline, Code, Paragrap
 import { authenticationService } from "../../../_services/authentication.service"
 
 export default {
-    props: ["chapitre", "item", "chapter"],
+    props: ["chapter", "item"],
     components: { TiptapVuetify },
     data: () => ({
         extensions: [
@@ -37,7 +37,6 @@ export default {
         save() {
             if (this.isValid == true ) {
                 this.id_validation = 2
-                console.log("valider ! ")
             } else {
                 this.id_validation = 1
             }
@@ -48,9 +47,7 @@ export default {
                 id_chapitre: this.id_chapitre,
                 id_validation: this.id_validation
             }).then(response => {
-                console.log(response)
                 const index = this.chapter.indexOf(this.item);
-                console.log(index)
                 this.chapter.splice(index, 1, response.data.data)
             })
             this.close();

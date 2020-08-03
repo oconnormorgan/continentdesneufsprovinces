@@ -43,7 +43,7 @@
             </v-form>
           </v-card-text>
           <v-card-actions>
-            <v-btn outlined color="success" :disabled="!valid" @click="save">Connexion</v-btn>
+            <v-btn outlined color="success" :disabled="!valid" @click="save">Valider</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>

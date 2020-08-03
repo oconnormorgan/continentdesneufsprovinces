@@ -35,6 +35,7 @@ export default {
                 texte: this.content,
                 id_histoire: this.$route.params.id
             })
+            this.close();
         },
         close() {
             this.dialog = false

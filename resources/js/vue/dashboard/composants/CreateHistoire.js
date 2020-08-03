@@ -17,6 +17,7 @@ export default {
                     resumé: this.content,
                     id_auteur: this.currentUser.id
             })
+            this.close();
         },
         close() {
             this.dialog = false

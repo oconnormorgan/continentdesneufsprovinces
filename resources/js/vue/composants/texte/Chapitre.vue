@@ -59,7 +59,7 @@
             >{{item.titre}}</v-btn>
           </template>
           <template v-slot:item.actions="{ item }">
-            <EditChapitre :chapitre="chapitres" :item="item" />
+            <EditChapitre :chapter="chapitres" :item="item" />
             <DeleteChapitre :chapitre="chapitres" :item="item" />
           </template>
         </v-data-table>

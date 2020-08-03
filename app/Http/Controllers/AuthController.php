@@ -53,4 +53,9 @@ class AuthController extends Controller
 
         return response('Vous êtes déconnecté', 200);
     }
+
+    public function delete($id) {
+        $statusDeleteUtilisateur = User::destroy($id) ? 'ok' : 'nok';
+        return $statusDeleteUtilisateur;
+    }
 }

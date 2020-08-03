@@ -1,8 +1,10 @@
 import CreateUtilisateur from './CreateUtilisateur.vue';
+import DeleteUtilisateur from './DeleteUtilisateur.vue';
 
 export default {
     components : {
-        CreateUtilisateur
+        CreateUtilisateur,
+        DeleteUtilisateur
     },
     data() {
         return {

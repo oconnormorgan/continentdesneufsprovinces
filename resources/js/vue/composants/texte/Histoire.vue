@@ -20,29 +20,14 @@
         <v-card class="d-flex flex-column align-center">
           <v-card-title class="text-subtitle-1 ma-0 pa-0">Paramétre</v-card-title>
           <v-row class="d-flex justify-center ma-0 pa-0">
-            <v-col cols="6" md="3" class="d-flex justify-center ma-0 pa-0" width="100%">
+            <v-col cols="6" md="3" class="d-flex justify-center mx-2 pa-0" width="100%">
               <v-btn icon small @click="decrease">
                 <v-icon>mdi-format-font-size-decrease</v-icon>
               </v-btn>
             </v-col>
-            <v-col cols="6" md="3" class="d-flex justify-center ma-0 pa-0" width="100%">
+            <v-col cols="6" md="3" class="d-flex justify-center mx-2 pa-0" width="100%">
               <v-btn icon small @click="increase">
                 <v-icon>mdi-format-font-size-increase</v-icon>
-              </v-btn>
-            </v-col>
-            <v-col cols="6" md="3" class="d-flex justify-center ma-0 pa-0" width="100%">
-              <v-btn icon small>
-                <v-icon>mdi-brightness-3</v-icon>
-              </v-btn>
-            </v-col>
-            <v-col cols="6" md="3" class="d-flex justify-center ma-0 pa-0" width="100%">
-              <v-btn icon small>
-                <v-icon>mdi-microphone</v-icon>
-              </v-btn>
-            </v-col>
-            <v-col cols="6" md="3" class="d-flex justify-center ma-0 pa-0" width="100%">
-              <v-btn icon small>
-                <v-icon>mdi-human</v-icon>
               </v-btn>
             </v-col>
           </v-row>
@@ -76,15 +61,6 @@
                       </v-btn>
                       <v-btn icon small class="px-2" @click="increase">
                         <v-icon>mdi-format-font-size-increase</v-icon>
-                      </v-btn>
-                      <v-btn icon small class="px-2">
-                        <v-icon>mdi-brightness-3</v-icon>
-                      </v-btn>
-                      <v-btn icon small class="px-2">
-                        <v-icon>mdi-microphone</v-icon>
-                      </v-btn>
-                      <v-btn icon small class="px-2">
-                        <v-icon>mdi-human</v-icon>
                       </v-btn>
                     </div>
                   </v-row>
